@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Timeline
+   version = "3.0">
+   <TimelineItems>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=0&amp;CharacterRangeLoc=421&amp;EndingColumnNumber=24&amp;EndingLineNumber=21&amp;StartingColumnNumber=24&amp;StartingLineNumber=21&amp;Timestamp=612499918.448103"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=0&amp;CharacterRangeLoc=454&amp;EndingColumnNumber=11&amp;EndingLineNumber=25&amp;StartingColumnNumber=11&amp;StartingLineNumber=25&amp;Timestamp=612499918.448333"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=1&amp;CharacterRangeLoc=461&amp;EndingColumnNumber=0&amp;EndingLineNumber=27&amp;StartingColumnNumber=0&amp;StartingLineNumber=26&amp;Timestamp=612499918.44845"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=2&amp;CharacterRangeLoc=460&amp;EndingColumnNumber=0&amp;EndingLineNumber=27&amp;StartingColumnNumber=17&amp;StartingLineNumber=25&amp;Timestamp=612499918.4485559"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=1&amp;CharacterRangeLoc=499&amp;EndingColumnNumber=0&amp;EndingLineNumber=29&amp;StartingColumnNumber=0&amp;StartingLineNumber=28&amp;Timestamp=612499918.44866"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=351&amp;CharacterRangeLoc=632&amp;EndingColumnNumber=1&amp;EndingLineNumber=54&amp;StartingColumnNumber=14&amp;StartingLineNumber=38&amp;Timestamp=612499918.448761"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=21&amp;CharacterRangeLoc=1024&amp;EndingColumnNumber=0&amp;EndingLineNumber=60&amp;StartingColumnNumber=2&amp;StartingLineNumber=59&amp;Timestamp=612499918.448859"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=15&amp;CharacterRangeLoc=1116&amp;EndingColumnNumber=7&amp;EndingLineNumber=67&amp;StartingColumnNumber=19&amp;StartingLineNumber=65&amp;Timestamp=612499918.448958"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=0&amp;CharacterRangeLoc=1132&amp;EndingColumnNumber=8&amp;EndingLineNumber=67&amp;StartingColumnNumber=8&amp;StartingLineNumber=67&amp;Timestamp=612499918.44906"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=0&amp;CharacterRangeLoc=1132&amp;EndingColumnNumber=8&amp;EndingLineNumber=67&amp;StartingColumnNumber=8&amp;StartingLineNumber=67&amp;Timestamp=612499918.449176"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=0&amp;CharacterRangeLoc=2551&amp;EndingColumnNumber=20&amp;EndingLineNumber=129&amp;StartingColumnNumber=20&amp;StartingLineNumber=129&amp;Timestamp=612499918.44928"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=17&amp;CharacterRangeLoc=1114&amp;EndingColumnNumber=7&amp;EndingLineNumber=67&amp;StartingColumnNumber=17&amp;StartingLineNumber=65&amp;Timestamp=612499918.449384"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=11&amp;CharacterRangeLoc=1075&amp;EndingColumnNumber=3&amp;EndingLineNumber=63&amp;StartingColumnNumber=29&amp;StartingLineNumber=61&amp;Timestamp=612499918.449546"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=1&amp;CharacterRangeLoc=274&amp;EndingColumnNumber=2&amp;EndingLineNumber=13&amp;StartingColumnNumber=1&amp;StartingLineNumber=13&amp;Timestamp=612499918.449735"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=19&amp;CharacterRangeLoc=290&amp;EndingColumnNumber=9&amp;EndingLineNumber=15&amp;StartingColumnNumber=17&amp;StartingLineNumber=13&amp;Timestamp=612499918.449844"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=57&amp;CharacterRangeLoc=326&amp;EndingColumnNumber=36&amp;EndingLineNumber=17&amp;StartingColumnNumber=26&amp;StartingLineNumber=15&amp;Timestamp=612499918.44995"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=7&amp;CharacterRangeLoc=400&amp;EndingColumnNumber=10&amp;EndingLineNumber=21&amp;StartingColumnNumber=3&amp;StartingLineNumber=21&amp;Timestamp=612499918.450052"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=21&amp;CharacterRangeLoc=425&amp;EndingColumnNumber=3&amp;EndingLineNumber=25&amp;StartingColumnNumber=0&amp;StartingLineNumber=22&amp;Timestamp=612499918.450153"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=0&amp;CharacterRangeLoc=460&amp;EndingColumnNumber=17&amp;EndingLineNumber=25&amp;StartingColumnNumber=17&amp;StartingLineNumber=25&amp;Timestamp=612499918.450262"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=13&amp;CharacterRangeLoc=460&amp;EndingColumnNumber=11&amp;EndingLineNumber=27&amp;StartingColumnNumber=17&amp;StartingLineNumber=25&amp;Timestamp=612499918.450362"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=823&amp;CharacterRangeLoc=1586&amp;EndingColumnNumber=2&amp;EndingLineNumber=124&amp;StartingColumnNumber=37&amp;StartingLineNumber=90&amp;Timestamp=612499918.450458"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=1&amp;CharacterRangeLoc=226&amp;EndingColumnNumber=29&amp;EndingLineNumber=9&amp;StartingColumnNumber=28&amp;StartingLineNumber=9&amp;Timestamp=612499918.450554"
+         lockedSize = "{651, 155}"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=22&amp;CharacterRangeLoc=246&amp;EndingColumnNumber=12&amp;EndingLineNumber=11&amp;StartingColumnNumber=48&amp;StartingLineNumber=9&amp;Timestamp=612499918.450654"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=37&amp;CharacterRangeLoc=286&amp;EndingColumnNumber=23&amp;EndingLineNumber=15&amp;StartingColumnNumber=13&amp;StartingLineNumber=13&amp;Timestamp=612499918.45075"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=7&amp;CharacterRangeLoc=350&amp;EndingColumnNumber=10&amp;EndingLineNumber=17&amp;StartingColumnNumber=3&amp;StartingLineNumber=17&amp;Timestamp=612499918.450847"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=21&amp;CharacterRangeLoc=375&amp;EndingColumnNumber=0&amp;EndingLineNumber=20&amp;StartingColumnNumber=28&amp;StartingLineNumber=17&amp;Timestamp=612499918.450941"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=11&amp;CharacterRangeLoc=413&amp;EndingColumnNumber=27&amp;EndingLineNumber=21&amp;StartingColumnNumber=16&amp;StartingLineNumber=21&amp;Timestamp=612499918.451036"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=15&amp;CharacterRangeLoc=441&amp;EndingColumnNumber=13&amp;EndingLineNumber=25&amp;StartingColumnNumber=15&amp;StartingLineNumber=23&amp;Timestamp=612499918.4511321"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=221&amp;CharacterRangeLoc=1131&amp;EndingColumnNumber=2&amp;EndingLineNumber=78&amp;StartingColumnNumber=7&amp;StartingLineNumber=67&amp;Timestamp=612499918.451228"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=13&amp;CharacterRangeLoc=1156&amp;EndingColumnNumber=0&amp;EndingLineNumber=70&amp;StartingColumnNumber=20&amp;StartingLineNumber=69&amp;Timestamp=612499918.451323"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=13&amp;CharacterRangeLoc=1156&amp;EndingColumnNumber=0&amp;EndingLineNumber=70&amp;StartingColumnNumber=20&amp;StartingLineNumber=69&amp;Timestamp=612499918.4514509"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=0&amp;CharacterRangeLoc=1169&amp;EndingColumnNumber=0&amp;EndingLineNumber=70&amp;StartingColumnNumber=0&amp;StartingLineNumber=70&amp;Timestamp=612499918.451548"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=0&amp;CharacterRangeLoc=1169&amp;EndingColumnNumber=0&amp;EndingLineNumber=70&amp;StartingColumnNumber=0&amp;StartingLineNumber=70&amp;Timestamp=612499918.451703"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=0&amp;CharacterRangeLoc=460&amp;EndingColumnNumber=17&amp;EndingLineNumber=25&amp;StartingColumnNumber=17&amp;StartingLineNumber=25&amp;Timestamp=612499918.4518909"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=17&amp;CharacterRangeLoc=1168&amp;EndingColumnNumber=15&amp;EndingLineNumber=71&amp;StartingColumnNumber=32&amp;StartingLineNumber=69&amp;Timestamp=612499918.452024"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=0&amp;CharacterRangeLoc=1352&amp;EndingColumnNumber=2&amp;EndingLineNumber=78&amp;StartingColumnNumber=2&amp;StartingLineNumber=78&amp;Timestamp=612499918.4521641"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=0&amp;CharacterRangeLoc=460&amp;EndingColumnNumber=17&amp;EndingLineNumber=25&amp;StartingColumnNumber=17&amp;StartingLineNumber=25&amp;Timestamp=612499918.452268"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=0&amp;CharacterRangeLoc=2551&amp;EndingColumnNumber=20&amp;EndingLineNumber=129&amp;StartingColumnNumber=20&amp;StartingLineNumber=129&amp;Timestamp=612499918.452368"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=0&amp;CharacterRangeLoc=2551&amp;EndingColumnNumber=20&amp;EndingLineNumber=129&amp;StartingColumnNumber=20&amp;StartingLineNumber=129&amp;Timestamp=612499918.4524651"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=1&amp;CharacterRangeLoc=2550&amp;EndingColumnNumber=20&amp;EndingLineNumber=129&amp;StartingColumnNumber=19&amp;StartingLineNumber=129&amp;Timestamp=612499918.4525599"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=0&amp;CharacterRangeLoc=2550&amp;EndingColumnNumber=19&amp;EndingLineNumber=129&amp;StartingColumnNumber=19&amp;StartingLineNumber=129&amp;Timestamp=612499918.4526581"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=9&amp;CharacterRangeLoc=1343&amp;EndingColumnNumber=2&amp;EndingLineNumber=78&amp;StartingColumnNumber=18&amp;StartingLineNumber=77&amp;Timestamp=612499918.452767"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=0&amp;CharacterRangeLoc=1352&amp;EndingColumnNumber=2&amp;EndingLineNumber=78&amp;StartingColumnNumber=2&amp;StartingLineNumber=78&amp;Timestamp=612499918.452867"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=29&amp;CharacterRangeLoc=1167&amp;EndingColumnNumber=6&amp;EndingLineNumber=73&amp;StartingColumnNumber=31&amp;StartingLineNumber=69&amp;Timestamp=612499918.452961"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=38&amp;CharacterRangeLoc=2367&amp;EndingColumnNumber=18&amp;EndingLineNumber=122&amp;StartingColumnNumber=10&amp;StartingLineNumber=119&amp;Timestamp=612499918.453056"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=45&amp;CharacterRangeLoc=2812&amp;EndingColumnNumber=0&amp;EndingLineNumber=144&amp;StartingColumnNumber=34&amp;StartingLineNumber=141&amp;Timestamp=612499918.45315"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=32&amp;CharacterRangeLoc=2353&amp;EndingColumnNumber=11&amp;EndingLineNumber=121&amp;StartingColumnNumber=58&amp;StartingLineNumber=117&amp;Timestamp=612499918.453244"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=0&amp;CharacterRangeLoc=2550&amp;EndingColumnNumber=19&amp;EndingLineNumber=129&amp;StartingColumnNumber=19&amp;StartingLineNumber=129&amp;Timestamp=612499918.453337"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=0&amp;CharacterRangeLoc=2550&amp;EndingColumnNumber=19&amp;EndingLineNumber=129&amp;StartingColumnNumber=19&amp;StartingLineNumber=129&amp;Timestamp=612499918.453431"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=1&amp;CharacterRangeLoc=227&amp;EndingColumnNumber=30&amp;EndingLineNumber=9&amp;StartingColumnNumber=29&amp;StartingLineNumber=9&amp;Timestamp=612499918.453523"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=21&amp;CharacterRangeLoc=247&amp;EndingColumnNumber=12&amp;EndingLineNumber=11&amp;StartingColumnNumber=49&amp;StartingLineNumber=9&amp;Timestamp=612499918.453617"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=46&amp;CharacterRangeLoc=2282&amp;EndingColumnNumber=33&amp;EndingLineNumber=117&amp;StartingColumnNumber=18&amp;StartingLineNumber=114&amp;Timestamp=612499918.453709"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=4&amp;CharacterRangeLoc=520&amp;EndingColumnNumber=3&amp;EndingLineNumber=31&amp;StartingColumnNumber=0&amp;StartingLineNumber=30&amp;Timestamp=612499918.453804"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=7&amp;CharacterRangeLoc=606&amp;EndingColumnNumber=26&amp;EndingLineNumber=35&amp;StartingColumnNumber=19&amp;StartingLineNumber=35&amp;Timestamp=612499918.453896"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=21&amp;CharacterRangeLoc=610&amp;EndingColumnNumber=13&amp;EndingLineNumber=38&amp;StartingColumnNumber=23&amp;StartingLineNumber=35&amp;Timestamp=612499918.4539911"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=8&amp;CharacterRangeLoc=656&amp;EndingColumnNumber=7&amp;EndingLineNumber=39&amp;StartingColumnNumber=38&amp;StartingLineNumber=38&amp;Timestamp=612499918.454083"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=15&amp;CharacterRangeLoc=681&amp;EndingColumnNumber=39&amp;EndingLineNumber=39&amp;StartingColumnNumber=24&amp;StartingLineNumber=39&amp;Timestamp=612499918.454178"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=29&amp;CharacterRangeLoc=1008&amp;EndingColumnNumber=15&amp;EndingLineNumber=59&amp;StartingColumnNumber=10&amp;StartingLineNumber=56&amp;Timestamp=612499918.454272"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=12&amp;CharacterRangeLoc=1185&amp;EndingColumnNumber=7&amp;EndingLineNumber=73&amp;StartingColumnNumber=15&amp;StartingLineNumber=71&amp;Timestamp=612499918.454365"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=12&amp;CharacterRangeLoc=1340&amp;EndingColumnNumber=2&amp;EndingLineNumber=78&amp;StartingColumnNumber=15&amp;StartingLineNumber=77&amp;Timestamp=612499918.454456"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=517&amp;CharacterRangeLoc=1604&amp;EndingColumnNumber=70&amp;EndingLineNumber=109&amp;StartingColumnNumber=0&amp;StartingLineNumber=91&amp;Timestamp=612499918.454549"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=16&amp;CharacterRangeLoc=508&amp;EndingColumnNumber=3&amp;EndingLineNumber=31&amp;StartingColumnNumber=8&amp;StartingLineNumber=29&amp;Timestamp=612499918.454641"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=11&amp;CharacterRangeLoc=648&amp;EndingColumnNumber=2&amp;EndingLineNumber=39&amp;StartingColumnNumber=30&amp;StartingLineNumber=38&amp;Timestamp=612499918.454738"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=15&amp;CharacterRangeLoc=676&amp;EndingColumnNumber=34&amp;EndingLineNumber=39&amp;StartingColumnNumber=19&amp;StartingLineNumber=39&amp;Timestamp=612499918.454833"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=29&amp;CharacterRangeLoc=1003&amp;EndingColumnNumber=10&amp;EndingLineNumber=59&amp;StartingColumnNumber=5&amp;StartingLineNumber=56&amp;Timestamp=612499918.454929"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=12&amp;CharacterRangeLoc=1180&amp;EndingColumnNumber=2&amp;EndingLineNumber=73&amp;StartingColumnNumber=10&amp;StartingLineNumber=71&amp;Timestamp=612499918.455126"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=13&amp;CharacterRangeLoc=1335&amp;EndingColumnNumber=23&amp;EndingLineNumber=77&amp;StartingColumnNumber=10&amp;StartingLineNumber=77&amp;Timestamp=612499918.455253"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=46&amp;CharacterRangeLoc=1599&amp;EndingColumnNumber=39&amp;EndingLineNumber=92&amp;StartingColumnNumber=50&amp;StartingLineNumber=90&amp;Timestamp=612499918.455356"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=25&amp;CharacterRangeLoc=2090&amp;EndingColumnNumber=64&amp;EndingLineNumber=109&amp;StartingColumnNumber=39&amp;StartingLineNumber=109&amp;Timestamp=612499918.455582"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=1&amp;CharacterRangeLoc=439&amp;EndingColumnNumber=14&amp;EndingLineNumber=23&amp;StartingColumnNumber=13&amp;StartingLineNumber=23&amp;Timestamp=612499918.455786"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=21&amp;CharacterRangeLoc=475&amp;EndingColumnNumber=34&amp;EndingLineNumber=27&amp;StartingColumnNumber=13&amp;StartingLineNumber=27&amp;Timestamp=612499918.455897"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=16&amp;CharacterRangeLoc=599&amp;EndingColumnNumber=0&amp;EndingLineNumber=36&amp;StartingColumnNumber=12&amp;StartingLineNumber=35&amp;Timestamp=612499918.455997"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=16&amp;CharacterRangeLoc=963&amp;EndingColumnNumber=29&amp;EndingLineNumber=52&amp;StartingColumnNumber=13&amp;StartingLineNumber=52&amp;Timestamp=612499918.456095"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=7&amp;CharacterRangeLoc=1011&amp;EndingColumnNumber=20&amp;EndingLineNumber=56&amp;StartingColumnNumber=13&amp;StartingLineNumber=56&amp;Timestamp=612499918.456192"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=21&amp;CharacterRangeLoc=1059&amp;EndingColumnNumber=34&amp;EndingLineNumber=61&amp;StartingColumnNumber=13&amp;StartingLineNumber=61&amp;Timestamp=612499918.456287"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=11&amp;CharacterRangeLoc=1110&amp;EndingColumnNumber=24&amp;EndingLineNumber=65&amp;StartingColumnNumber=13&amp;StartingLineNumber=65&amp;Timestamp=612499918.456382"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=18&amp;CharacterRangeLoc=1149&amp;EndingColumnNumber=31&amp;EndingLineNumber=69&amp;StartingColumnNumber=13&amp;StartingLineNumber=69&amp;Timestamp=612499918.456478"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=156&amp;CharacterRangeLoc=1299&amp;EndingColumnNumber=0&amp;EndingLineNumber=81&amp;StartingColumnNumber=12&amp;StartingLineNumber=75&amp;Timestamp=612499918.456574"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=29&amp;CharacterRangeLoc=1498&amp;EndingColumnNumber=42&amp;EndingLineNumber=86&amp;StartingColumnNumber=13&amp;StartingLineNumber=86&amp;Timestamp=612499918.456669"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=12&amp;CharacterRangeLoc=1697&amp;EndingColumnNumber=25&amp;EndingLineNumber=95&amp;StartingColumnNumber=13&amp;StartingLineNumber=95&amp;Timestamp=612499918.456762"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=13&amp;CharacterRangeLoc=2020&amp;EndingColumnNumber=26&amp;EndingLineNumber=105&amp;StartingColumnNumber=13&amp;StartingLineNumber=105&amp;Timestamp=612499918.456857"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=55&amp;CharacterRangeLoc=2350&amp;EndingColumnNumber=18&amp;EndingLineNumber=122&amp;StartingColumnNumber=55&amp;StartingLineNumber=117&amp;Timestamp=612499918.456952"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=23&amp;CharacterRangeLoc=2833&amp;EndingColumnNumber=38&amp;EndingLineNumber=143&amp;StartingColumnNumber=15&amp;StartingLineNumber=143&amp;Timestamp=612499918.457046"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=23&amp;CharacterRangeLoc=2872&amp;EndingColumnNumber=37&amp;EndingLineNumber=145&amp;StartingColumnNumber=14&amp;StartingLineNumber=145&amp;Timestamp=612499918.457139"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=24&amp;CharacterRangeLoc=2074&amp;EndingColumnNumber=47&amp;EndingLineNumber=109&amp;StartingColumnNumber=23&amp;StartingLineNumber=109&amp;Timestamp=612499918.457233"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=24&amp;CharacterRangeLoc=2114&amp;EndingColumnNumber=7&amp;EndingLineNumber=111&amp;StartingColumnNumber=63&amp;StartingLineNumber=109&amp;Timestamp=612499918.457328"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/huypham/Downloads/Interpolation-Playground--master/InterpolationPlayground.playground#CharacterRangeLen=29&amp;CharacterRangeLoc=2154&amp;EndingColumnNumber=52&amp;EndingLineNumber=111&amp;StartingColumnNumber=23&amp;StartingLineNumber=111&amp;Timestamp=612499918.457427"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+   </TimelineItems>
+</Timeline>
