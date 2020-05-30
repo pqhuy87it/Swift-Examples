@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios'>
+    <pages>
+        <page name='map'/>
+        <page name='compactMap'/>
+        <page name='flatMap'/>
+        <page name='forEach-vs-for-loop'/>
+    </pages>
+</playground>
