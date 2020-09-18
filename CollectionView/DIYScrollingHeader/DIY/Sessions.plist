@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Title</key>
+		<string>iOS Apprentice Review I</string>
+		<key>Speaker</key>
+		<string>Tammy Coron</string>
+		<key>Room</key>
+		<string>The Hill</string>
+		<key>Time</key>
+		<string>Feb 6, 10:00</string>
+		<key>Background</key>
+		<string>Tutorial-01</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Swift Language Basics</string>
+		<key>Speaker</key>
+		<string>Matt Galloway</string>
+		<key>Room</key>
+		<string>The Grid</string>
+		<key>Time</key>
+		<string>Feb 6, 10:00</string>
+		<key>Background</key>
+		<string>Tutorial-02</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>App Architecture</string>
+		<key>Speaker</key>
+		<string>Matthijs Hollemans</string>
+		<key>Room</key>
+		<string>Metropolitan Center</string>
+		<key>Time</key>
+		<string>Feb 6, 10:00</string>
+		<key>Background</key>
+		<string>Tutorial-03</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>iOS Apprentice Review II</string>
+		<key>Speaker</key>
+		<string>Brian Moakley</string>
+		<key>Room</key>
+		<string>The Hill</string>
+		<key>Time</key>
+		<string>Feb 6, 11:30</string>
+		<key>Background</key>
+		<string>Tutorial-04</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Swift Generics, Closures, Enums, and Switch</string>
+		<key>Speaker</key>
+		<string>Matthijs Hollemans</string>
+		<key>Room</key>
+		<string>The Grid</string>
+		<key>Time</key>
+		<string>Feb 6, 11:30</string>
+		<key>Background</key>
+		<string>Tutorial-05</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Advanced Debugging</string>
+		<key>Speaker</key>
+		<string>Richard Turton</string>
+		<key>Room</key>
+		<string>Metropolitan Center</string>
+		<key>Time</key>
+		<string>Feb 6, 11:30</string>
+		<key>Background</key>
+		<string>Tutorial-06</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Auto Layout</string>
+		<key>Speaker</key>
+		<string>Greg Heo</string>
+		<key>Room</key>
+		<string>The Hill</string>
+		<key>Time</key>
+		<string>Feb 6, 1:45</string>
+		<key>Background</key>
+		<string>Tutorial-07</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Swift and Cocoa</string>
+		<key>Speaker</key>
+		<string>Matt Galloway</string>
+		<key>Room</key>
+		<string>The Grid</string>
+		<key>Time</key>
+		<string>Feb 6, 1:45</string>
+		<key>Background</key>
+		<string>Tutorial-08</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Effortless Responsiveness with AsyncDisplayKit</string>
+		<key>Speaker</key>
+		<string>René Cacheaux</string>
+		<key>Room</key>
+		<string>Metropolitan Center</string>
+		<key>Time</key>
+		<string>Feb 6, 1:45</string>
+		<key>Background</key>
+		<string>Tutorial-09</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Adaptive Layout</string>
+		<key>Speaker</key>
+		<string>Sam Davies</string>
+		<key>Room</key>
+		<string>The Hill</string>
+		<key>Time</key>
+		<string>Feb 6, 3:15</string>
+		<key>Background</key>
+		<string>Tutorial-10</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Functional Programming</string>
+		<key>Speaker</key>
+		<string>Alexis Gallagher</string>
+		<key>Room</key>
+		<string>The Grid</string>
+		<key>Time</key>
+		<string>Feb 6, 3:15</string>
+		<key>Background</key>
+		<string>Tutorial-11</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Unit Testing in Practice</string>
+		<key>Speaker</key>
+		<string>Ellen Shapiro</string>
+		<key>Room</key>
+		<string>Metropolitan Center</string>
+		<key>Time</key>
+		<string>Feb 6, 3:15</string>
+		<key>Background</key>
+		<string>Tutorial-12</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>App Extensions</string>
+		<key>Speaker</key>
+		<string>Chris Wagner</string>
+		<key>Room</key>
+		<string>The Hill</string>
+		<key>Time</key>
+		<string>Feb 7, 9:00</string>
+		<key>Background</key>
+		<string>Tutorial-13</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Beginning Core Graphics</string>
+		<key>Speaker</key>
+		<string>Jake Gundersen</string>
+		<key>Room</key>
+		<string>The Grid</string>
+		<key>Time</key>
+		<string>Feb 7, 9:00</string>
+		<key>Background</key>
+		<string>Tutorial-14</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>View Controller Transitions</string>
+		<key>Speaker</key>
+		<string>Ryan Nystrom</string>
+		<key>Room</key>
+		<string>Metropolitan Center</string>
+		<key>Time</key>
+		<string>Feb 7, 9:00</string>
+		<key>Background</key>
+		<string>Tutorial-15</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>WatchKit I</string>
+		<key>Speaker</key>
+		<string>Greg Heo</string>
+		<key>Room</key>
+		<string>The Hill</string>
+		<key>Time</key>
+		<string>Feb 7, 10:30</string>
+		<key>Background</key>
+		<string>Tutorial-16</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Custom Controls in Xcode 6</string>
+		<key>Speaker</key>
+		<string>Ricardo Rendon Cepeda</string>
+		<key>Room</key>
+		<string>The Grid</string>
+		<key>Time</key>
+		<string>Feb 7, 10:30</string>
+		<key>Background</key>
+		<string>Tutorial-17</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Animating Auto Layout Constraints</string>
+		<key>Speaker</key>
+		<string>Marin Todorov</string>
+		<key>Room</key>
+		<string>Metropolitan Center</string>
+		<key>Time</key>
+		<string>Feb 7, 10:30</string>
+		<key>Background</key>
+		<string>Tutorial-18</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>WatchKit II</string>
+		<key>Speaker</key>
+		<string>Mic Pringle</string>
+		<key>Room</key>
+		<string>The Hill</string>
+		<key>Time</key>
+		<string>Feb 7, 12:45</string>
+		<key>Background</key>
+		<string>Tutorial-19</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Sprite Kit</string>
+		<key>Speaker</key>
+		<string>Ray Wenderlich</string>
+		<key>Room</key>
+		<string>The Grid</string>
+		<key>Time</key>
+		<string>Feb 7, 12:45</string>
+		<key>Background</key>
+		<string>Tutorial-20</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Core Data &amp; Multithreading</string>
+		<key>Speaker</key>
+		<string>Saul Mora</string>
+		<key>Room</key>
+		<string>Metropolitan Center</string>
+		<key>Time</key>
+		<string>Feb 7, 12:45</string>
+		<key>Background</key>
+		<string>Tutorial-21</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Parse</string>
+		<key>Speaker</key>
+		<string>Fosco Marotto</string>
+		<key>Room</key>
+		<string>The Hill</string>
+		<key>Time</key>
+		<string>Feb 7, 2:15</string>
+		<key>Background</key>
+		<string>Tutorial-22</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Scene Kit</string>
+		<key>Speaker</key>
+		<string>Kim Pedersen</string>
+		<key>Room</key>
+		<string>The Grid</string>
+		<key>Time</key>
+		<string>Feb 7, 2:15</string>
+		<key>Background</key>
+		<string>Tutorial-23</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Collection View Custom Layouts</string>
+		<key>Speaker</key>
+		<string>Mic Pringle</string>
+		<key>Room</key>
+		<string>Metropolitan Center</string>
+		<key>Time</key>
+		<string>Feb 7, 2:15</string>
+		<key>Background</key>
+		<string>Tutorial-24</string>
+	</dict>
+</array>
+</plist>
