@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HiraginoKakuGothic.ttc">
+            <string>HiraginoSans-W3</string>
+            <string>HiraginoSans-W6</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ConfirmDialogViewController" customModule="ConfirmDialogViewController" customModuleProvider="target">
+            <connections>
+                <outlet property="backView" destination="eaP-cR-ZuU" id="LIr-r3-6Lf"/>
+                <outlet property="caution" destination="6bM-y0-WC0" id="wV7-1R-EAe"/>
+                <outlet property="checkBoxButton" destination="SSk-Io-bv5" id="1lc-oi-Fy3"/>
+                <outlet property="checkBoxLabel" destination="5a1-2L-GMP" id="NMr-oT-8vz"/>
+                <outlet property="detailLabel" destination="iBG-uK-apU" id="WRu-zB-Pla"/>
+                <outlet property="labelForCancel" destination="MIF-eY-Jd0" id="hj4-FW-DeT"/>
+                <outlet property="labelForOk" destination="1yF-q4-TQ2" id="dLI-h6-PCi"/>
+                <outlet property="titleLabel" destination="GNU-FH-Elx" id="xsC-Is-ztf"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eaP-cR-ZuU" userLabel="backgroudView">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w5Q-eO-RYQ" userLabel="alertBackView">
+                    <rect key="frame" x="19" y="203.5" width="337" height="261"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ダイレクトバンキングかんたんログオン設定" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.0001" translatesAutoresizingMaskIntoConstraints="NO" id="GNU-FH-Elx">
+                            <rect key="frame" x="5" y="15" width="327" height="40"/>
+                            <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="20"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="アプリをログオフして、ダイレクトバンキングサービスへログオンします。よろしいですか？" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.0001" translatesAutoresizingMaskIntoConstraints="NO" id="iBG-uK-apU">
+                            <rect key="frame" x="10" y="75" width="317" height="48"/>
+                            <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="16"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="※メニューの「ダイレクトバンキングかんたんログオン設定」から設定の変更ができます。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.0001" translatesAutoresizingMaskIntoConstraints="NO" id="6bM-y0-WC0">
+                            <rect key="frame" x="10" y="143" width="317" height="28"/>
+                            <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="14"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eNb-JF-eTq" userLabel="checkboxBackView">
+                            <rect key="frame" x="92" y="181" width="153" height="24"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SSk-Io-bv5">
+                                    <rect key="frame" x="10" y="-0.5" width="25" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="25" id="gVo-Yf-5yL"/>
+                                        <constraint firstAttribute="width" constant="25" id="wJS-68-h9g"/>
+                                    </constraints>
+                                    <state key="normal" image="check_box_off"/>
+                                    <state key="selected" image="check_box_on"/>
+                                    <connections>
+                                        <action selector="checkBoxButtonPushed:" destination="-1" eventType="touchUpInside" id="wPV-Y4-OQB"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="今後表示しない" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" minimumScaleFactor="0.0001" translatesAutoresizingMaskIntoConstraints="NO" id="5a1-2L-GMP">
+                                    <rect key="frame" x="45" y="5" width="98" height="14"/>
+                                    <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="14"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="5a1-2L-GMP" firstAttribute="top" secondItem="eNb-JF-eTq" secondAttribute="top" constant="5" id="5vr-J6-lGi"/>
+                                <constraint firstItem="SSk-Io-bv5" firstAttribute="centerY" secondItem="eNb-JF-eTq" secondAttribute="centerY" id="IpB-e5-rHv"/>
+                                <constraint firstItem="SSk-Io-bv5" firstAttribute="leading" secondItem="eNb-JF-eTq" secondAttribute="leading" constant="10" id="UQJ-75-ALI"/>
+                                <constraint firstAttribute="trailing" secondItem="5a1-2L-GMP" secondAttribute="trailing" constant="10" id="atM-Go-Yax"/>
+                                <constraint firstAttribute="bottom" secondItem="5a1-2L-GMP" secondAttribute="bottom" constant="5" id="cuI-iY-hcZ"/>
+                                <constraint firstItem="5a1-2L-GMP" firstAttribute="centerY" secondItem="eNb-JF-eTq" secondAttribute="centerY" id="oDS-rv-a3q"/>
+                                <constraint firstItem="5a1-2L-GMP" firstAttribute="leading" secondItem="SSk-Io-bv5" secondAttribute="trailing" constant="10" id="wwV-Yi-HL7"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SaO-X0-fa6" userLabel="buttonBackView">
+                            <rect key="frame" x="0.0" y="215" width="337" height="46"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MIF-eY-Jd0">
+                                    <rect key="frame" x="0.0" y="2" width="167" height="44"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="44" id="2Em-LO-KSp"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="15"/>
+                                    <state key="normal" title="キャンセル">
+                                        <color key="titleColor" red="0.0" green="0.57254901960000004" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="cancelButtonPushed:" destination="-1" eventType="touchUpInside" id="uch-R8-leW"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1yF-q4-TQ2">
+                                    <rect key="frame" x="170" y="2" width="167" height="44"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="44" id="pFp-LH-I0Q"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="15"/>
+                                    <state key="normal" title="OK">
+                                        <color key="titleColor" red="0.0" green="0.57254901960000004" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="okButtonPushed:" destination="-1" eventType="touchUpInside" id="M6a-bQ-9Fc"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="0.0" green="0.57254901960000004" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="46" id="8B9-bQ-Amk"/>
+                                <constraint firstAttribute="bottom" secondItem="1yF-q4-TQ2" secondAttribute="bottom" id="DJV-BE-r8e"/>
+                                <constraint firstItem="MIF-eY-Jd0" firstAttribute="leading" secondItem="SaO-X0-fa6" secondAttribute="leading" id="Ii1-Ae-nCt"/>
+                                <constraint firstAttribute="bottom" secondItem="MIF-eY-Jd0" secondAttribute="bottom" id="b1W-hC-UuS"/>
+                                <constraint firstItem="MIF-eY-Jd0" firstAttribute="width" secondItem="SaO-X0-fa6" secondAttribute="width" multiplier="0.495" id="c0d-Tj-ag3"/>
+                                <constraint firstItem="1yF-q4-TQ2" firstAttribute="width" secondItem="SaO-X0-fa6" secondAttribute="width" multiplier="0.495" id="fi2-4d-eRP"/>
+                                <constraint firstAttribute="trailing" secondItem="1yF-q4-TQ2" secondAttribute="trailing" id="uYW-qA-bQl"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="6bM-y0-WC0" firstAttribute="leading" secondItem="w5Q-eO-RYQ" secondAttribute="leading" constant="10" id="0yX-gp-PH4"/>
+                        <constraint firstAttribute="trailing" secondItem="GNU-FH-Elx" secondAttribute="trailing" constant="5" id="1ES-PO-jYT"/>
+                        <constraint firstItem="SaO-X0-fa6" firstAttribute="leading" secondItem="w5Q-eO-RYQ" secondAttribute="leading" id="1Ob-h5-vz5"/>
+                        <constraint firstAttribute="trailing" secondItem="SaO-X0-fa6" secondAttribute="trailing" id="99O-Wr-WMC"/>
+                        <constraint firstItem="SaO-X0-fa6" firstAttribute="top" secondItem="eNb-JF-eTq" secondAttribute="bottom" constant="10" id="BRn-s3-0Ye"/>
+                        <constraint firstItem="GNU-FH-Elx" firstAttribute="leading" secondItem="w5Q-eO-RYQ" secondAttribute="leading" constant="5" id="HtY-Uq-aza"/>
+                        <constraint firstAttribute="trailing" secondItem="6bM-y0-WC0" secondAttribute="trailing" constant="10" id="Ig0-wz-P1t"/>
+                        <constraint firstItem="iBG-uK-apU" firstAttribute="top" secondItem="GNU-FH-Elx" secondAttribute="bottom" constant="20" id="RCg-AD-bwk"/>
+                        <constraint firstAttribute="bottom" secondItem="SaO-X0-fa6" secondAttribute="bottom" id="SLY-Bb-pMq"/>
+                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="eNb-JF-eTq" secondAttribute="trailing" constant="10" id="W9Z-nB-6Kr"/>
+                        <constraint firstItem="eNb-JF-eTq" firstAttribute="top" secondItem="6bM-y0-WC0" secondAttribute="bottom" constant="10" id="WbC-ku-RTJ"/>
+                        <constraint firstItem="6bM-y0-WC0" firstAttribute="top" secondItem="iBG-uK-apU" secondAttribute="bottom" constant="20" id="Z9C-jt-tPx"/>
+                        <constraint firstItem="eNb-JF-eTq" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="w5Q-eO-RYQ" secondAttribute="leading" constant="10" id="ZRd-yk-CrG"/>
+                        <constraint firstAttribute="trailing" secondItem="iBG-uK-apU" secondAttribute="trailing" constant="10" id="ao3-8V-uIu"/>
+                        <constraint firstItem="iBG-uK-apU" firstAttribute="leading" secondItem="w5Q-eO-RYQ" secondAttribute="leading" constant="10" id="m0h-Df-0NQ"/>
+                        <constraint firstItem="GNU-FH-Elx" firstAttribute="top" secondItem="w5Q-eO-RYQ" secondAttribute="top" constant="15" id="pMw-wA-JDK"/>
+                        <constraint firstItem="eNb-JF-eTq" firstAttribute="centerX" secondItem="w5Q-eO-RYQ" secondAttribute="centerX" id="wIJ-1e-yJh"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="eaP-cR-ZuU" secondAttribute="bottom" id="209-aX-bQf"/>
+                <constraint firstItem="w5Q-eO-RYQ" firstAttribute="width" relation="lessThanOrEqual" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.9" id="3cO-5y-eC8"/>
+                <constraint firstItem="eaP-cR-ZuU" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="DNU-4B-KDw"/>
+                <constraint firstItem="w5Q-eO-RYQ" firstAttribute="height" relation="lessThanOrEqual" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.9" id="GG4-J2-DVE"/>
+                <constraint firstItem="eaP-cR-ZuU" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="PhG-hr-JHH"/>
+                <constraint firstItem="w5Q-eO-RYQ" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="UMd-3r-ydF"/>
+                <constraint firstAttribute="trailing" secondItem="eaP-cR-ZuU" secondAttribute="trailing" id="bFn-YI-0B1"/>
+                <constraint firstItem="w5Q-eO-RYQ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="rjI-Sm-too"/>
+            </constraints>
+            <point key="canvasLocation" x="-5" y="-17"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="check_box_off" width="30" height="30"/>
+        <image name="check_box_on" width="30" height="30"/>
+    </resources>
+</document>

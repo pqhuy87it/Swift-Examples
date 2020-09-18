@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE49BFF620295C3500D83F39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE49BFF520295C3500D83F39 /* AppDelegate.swift */; };
+		DE49BFFB20295C3500D83F39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE49BFF920295C3500D83F39 /* Main.storyboard */; };
+		DE49BFFD20295C3500D83F39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE49BFFC20295C3500D83F39 /* Assets.xcassets */; };
+		DE49C00020295C3500D83F39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE49BFFE20295C3500D83F39 /* LaunchScreen.storyboard */; };
+		DE49C00B20295C3500D83F39 /* ConfirmDialogViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE49C00A20295C3500D83F39 /* ConfirmDialogViewControllerTests.swift */; };
+		DE49C01620295C3500D83F39 /* ConfirmDialogViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE49C01520295C3500D83F39 /* ConfirmDialogViewControllerUITests.swift */; };
+		DE49C02420295C7B00D83F39 /* ConfirmDialogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE49C02320295C7B00D83F39 /* ConfirmDialogViewController.swift */; };
+		DE49C02820295CB000D83F39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE49C02620295CB000D83F39 /* ViewController.swift */; };
+		DE49C02920295CB000D83F39 /* ConfirmDialogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE49C02720295CB000D83F39 /* ConfirmDialogViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE49C00720295C3500D83F39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE49BFEA20295C3500D83F39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE49BFF120295C3500D83F39;
+			remoteInfo = ConfirmDialogViewController;
+		};
+		DE49C01220295C3500D83F39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE49BFEA20295C3500D83F39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE49BFF120295C3500D83F39;
+			remoteInfo = ConfirmDialogViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE49BFF220295C3500D83F39 /* ConfirmDialogViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConfirmDialogViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE49BFF520295C3500D83F39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE49BFFA20295C3500D83F39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE49BFFC20295C3500D83F39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE49BFFF20295C3500D83F39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE49C00120295C3500D83F39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE49C00620295C3500D83F39 /* ConfirmDialogViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConfirmDialogViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE49C00A20295C3500D83F39 /* ConfirmDialogViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmDialogViewControllerTests.swift; sourceTree = "<group>"; };
+		DE49C00C20295C3500D83F39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE49C01120295C3500D83F39 /* ConfirmDialogViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConfirmDialogViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE49C01520295C3500D83F39 /* ConfirmDialogViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmDialogViewControllerUITests.swift; sourceTree = "<group>"; };
+		DE49C01720295C3500D83F39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE49C02320295C7B00D83F39 /* ConfirmDialogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmDialogViewController.swift; sourceTree = "<group>"; };
+		DE49C02620295CB000D83F39 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE49C02720295CB000D83F39 /* ConfirmDialogViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfirmDialogViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE49BFEF20295C3500D83F39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE49C00320295C3500D83F39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE49C00E20295C3500D83F39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE49BFE920295C3500D83F39 = {
+			isa = PBXGroup;
+			children = (
+				DE49BFF420295C3500D83F39 /* ConfirmDialogViewController */,
+				DE49C00920295C3500D83F39 /* ConfirmDialogViewControllerTests */,
+				DE49C01420295C3500D83F39 /* ConfirmDialogViewControllerUITests */,
+				DE49BFF320295C3500D83F39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE49BFF320295C3500D83F39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE49BFF220295C3500D83F39 /* ConfirmDialogViewController.app */,
+				DE49C00620295C3500D83F39 /* ConfirmDialogViewControllerTests.xctest */,
+				DE49C01120295C3500D83F39 /* ConfirmDialogViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE49BFF420295C3500D83F39 /* ConfirmDialogViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DE49C02520295C8000D83F39 /* ViewController */,
+				DE49BFF520295C3500D83F39 /* AppDelegate.swift */,
+				DE49BFF920295C3500D83F39 /* Main.storyboard */,
+				DE49BFFC20295C3500D83F39 /* Assets.xcassets */,
+				DE49BFFE20295C3500D83F39 /* LaunchScreen.storyboard */,
+				DE49C00120295C3500D83F39 /* Info.plist */,
+			);
+			path = ConfirmDialogViewController;
+			sourceTree = "<group>";
+		};
+		DE49C00920295C3500D83F39 /* ConfirmDialogViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE49C00A20295C3500D83F39 /* ConfirmDialogViewControllerTests.swift */,
+				DE49C00C20295C3500D83F39 /* Info.plist */,
+			);
+			path = ConfirmDialogViewControllerTests;
+			sourceTree = "<group>";
+		};
+		DE49C01420295C3500D83F39 /* ConfirmDialogViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE49C01520295C3500D83F39 /* ConfirmDialogViewControllerUITests.swift */,
+				DE49C01720295C3500D83F39 /* Info.plist */,
+			);
+			path = ConfirmDialogViewControllerUITests;
+			sourceTree = "<group>";
+		};
+		DE49C02520295C8000D83F39 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DE49C02620295CB000D83F39 /* ViewController.swift */,
+				DE49C02720295CB000D83F39 /* ConfirmDialogViewController.xib */,
+				DE49C02320295C7B00D83F39 /* ConfirmDialogViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE49BFF120295C3500D83F39 /* ConfirmDialogViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE49C01A20295C3500D83F39 /* Build configuration list for PBXNativeTarget "ConfirmDialogViewController" */;
+			buildPhases = (
+				DE49BFEE20295C3500D83F39 /* Sources */,
+				DE49BFEF20295C3500D83F39 /* Frameworks */,
+				DE49BFF020295C3500D83F39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConfirmDialogViewController;
+			productName = ConfirmDialogViewController;
+			productReference = DE49BFF220295C3500D83F39 /* ConfirmDialogViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE49C00520295C3500D83F39 /* ConfirmDialogViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE49C01D20295C3500D83F39 /* Build configuration list for PBXNativeTarget "ConfirmDialogViewControllerTests" */;
+			buildPhases = (
+				DE49C00220295C3500D83F39 /* Sources */,
+				DE49C00320295C3500D83F39 /* Frameworks */,
+				DE49C00420295C3500D83F39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE49C00820295C3500D83F39 /* PBXTargetDependency */,
+			);
+			name = ConfirmDialogViewControllerTests;
+			productName = ConfirmDialogViewControllerTests;
+			productReference = DE49C00620295C3500D83F39 /* ConfirmDialogViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE49C01020295C3500D83F39 /* ConfirmDialogViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE49C02020295C3500D83F39 /* Build configuration list for PBXNativeTarget "ConfirmDialogViewControllerUITests" */;
+			buildPhases = (
+				DE49C00D20295C3500D83F39 /* Sources */,
+				DE49C00E20295C3500D83F39 /* Frameworks */,
+				DE49C00F20295C3500D83F39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE49C01320295C3500D83F39 /* PBXTargetDependency */,
+			);
+			name = ConfirmDialogViewControllerUITests;
+			productName = ConfirmDialogViewControllerUITests;
+			productReference = DE49C01120295C3500D83F39 /* ConfirmDialogViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE49BFEA20295C3500D83F39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = "Pham Quang Huy";
+				TargetAttributes = {
+					DE49BFF120295C3500D83F39 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1200;
+						ProvisioningStyle = Automatic;
+					};
+					DE49C00520295C3500D83F39 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1200;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DE49BFF120295C3500D83F39;
+					};
+					DE49C01020295C3500D83F39 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1200;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DE49BFF120295C3500D83F39;
+					};
+				};
+			};
+			buildConfigurationList = DE49BFED20295C3500D83F39 /* Build configuration list for PBXProject "ConfirmDialogViewController" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE49BFE920295C3500D83F39;
+			productRefGroup = DE49BFF320295C3500D83F39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE49BFF120295C3500D83F39 /* ConfirmDialogViewController */,
+				DE49C00520295C3500D83F39 /* ConfirmDialogViewControllerTests */,
+				DE49C01020295C3500D83F39 /* ConfirmDialogViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE49BFF020295C3500D83F39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE49C00020295C3500D83F39 /* LaunchScreen.storyboard in Resources */,
+				DE49C02920295CB000D83F39 /* ConfirmDialogViewController.xib in Resources */,
+				DE49BFFD20295C3500D83F39 /* Assets.xcassets in Resources */,
+				DE49BFFB20295C3500D83F39 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE49C00420295C3500D83F39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE49C00F20295C3500D83F39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE49BFEE20295C3500D83F39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE49C02820295CB000D83F39 /* ViewController.swift in Sources */,
+				DE49C02420295C7B00D83F39 /* ConfirmDialogViewController.swift in Sources */,
+				DE49BFF620295C3500D83F39 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE49C00220295C3500D83F39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE49C00B20295C3500D83F39 /* ConfirmDialogViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE49C00D20295C3500D83F39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE49C01620295C3500D83F39 /* ConfirmDialogViewControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE49C00820295C3500D83F39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE49BFF120295C3500D83F39 /* ConfirmDialogViewController */;
+			targetProxy = DE49C00720295C3500D83F39 /* PBXContainerItemProxy */;
+		};
+		DE49C01320295C3500D83F39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE49BFF120295C3500D83F39 /* ConfirmDialogViewController */;
+			targetProxy = DE49C01220295C3500D83F39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE49BFF920295C3500D83F39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE49BFFA20295C3500D83F39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE49BFFE20295C3500D83F39 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE49BFFF20295C3500D83F39 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE49C01820295C3500D83F39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE49C01920295C3500D83F39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE49C01B20295C3500D83F39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ConfirmDialogViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = exlinct.ConfirmDialogViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE49C01C20295C3500D83F39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ConfirmDialogViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = exlinct.ConfirmDialogViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE49C01E20295C3500D83F39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ConfirmDialogViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = exlinct.ConfirmDialogViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConfirmDialogViewController.app/ConfirmDialogViewController";
+			};
+			name = Debug;
+		};
+		DE49C01F20295C3500D83F39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ConfirmDialogViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = exlinct.ConfirmDialogViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConfirmDialogViewController.app/ConfirmDialogViewController";
+			};
+			name = Release;
+		};
+		DE49C02120295C3500D83F39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ConfirmDialogViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = exlinct.ConfirmDialogViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ConfirmDialogViewController;
+			};
+			name = Debug;
+		};
+		DE49C02220295C3500D83F39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ConfirmDialogViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = exlinct.ConfirmDialogViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ConfirmDialogViewController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE49BFED20295C3500D83F39 /* Build configuration list for PBXProject "ConfirmDialogViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE49C01820295C3500D83F39 /* Debug */,
+				DE49C01920295C3500D83F39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE49C01A20295C3500D83F39 /* Build configuration list for PBXNativeTarget "ConfirmDialogViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE49C01B20295C3500D83F39 /* Debug */,
+				DE49C01C20295C3500D83F39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE49C01D20295C3500D83F39 /* Build configuration list for PBXNativeTarget "ConfirmDialogViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE49C01E20295C3500D83F39 /* Debug */,
+				DE49C01F20295C3500D83F39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE49C02020295C3500D83F39 /* Build configuration list for PBXNativeTarget "ConfirmDialogViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE49C02120295C3500D83F39 /* Debug */,
+				DE49C02220295C3500D83F39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE49BFEA20295C3500D83F39 /* Project object */;
+}
