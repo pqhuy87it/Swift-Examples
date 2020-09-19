@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MusicAnimation" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="22S-5b-436" userLabel="Back">
+                                <rect key="frame" x="67" y="20" width="234" height="447"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kiwi_benefit.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="mq3-hD-qMa">
+                                        <rect key="frame" x="0.0" y="0.0" width="234" height="447"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.98039215690000003" green="0.066666666669999999" blue="0.30980392159999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="mq3-hD-qMa" secondAttribute="bottom" id="9Tt-dm-KlX"/>
+                                    <constraint firstItem="mq3-hD-qMa" firstAttribute="leading" secondItem="22S-5b-436" secondAttribute="leading" id="Ij1-cJ-ryg"/>
+                                    <constraint firstItem="mq3-hD-qMa" firstAttribute="top" secondItem="22S-5b-436" secondAttribute="top" id="LIo-TI-QKW"/>
+                                    <constraint firstAttribute="trailing" secondItem="mq3-hD-qMa" secondAttribute="trailing" id="cng-eV-BCm"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="ydW-Y6-Rhf" userLabel="Front">
+                                <rect key="frame" x="20" y="55" width="335" height="462"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kiwi.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="kub-vM-7I1">
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="462"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="kub-vM-7I1" secondAttribute="bottom" id="0n7-hz-JfT"/>
+                                    <constraint firstAttribute="trailing" secondItem="kub-vM-7I1" secondAttribute="trailing" id="YC6-nN-Wae"/>
+                                    <constraint firstItem="kub-vM-7I1" firstAttribute="leading" secondItem="ydW-Y6-Rhf" secondAttribute="leading" id="an8-fb-dr4"/>
+                                    <constraint firstItem="kub-vM-7I1" firstAttribute="top" secondItem="ydW-Y6-Rhf" secondAttribute="top" id="z0m-3s-zid"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ae-QS-sES">
+                                <rect key="frame" x="92" y="613" width="191" height="46"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="Start Animation"/>
+                                <connections>
+                                    <action selector="btnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Uq-rb-bUc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="22S-5b-436" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="67" id="1lX-gT-hvH"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="9ae-QS-sES" secondAttribute="bottom" constant="8" id="25r-yJ-dcI"/>
+                            <constraint firstAttribute="trailing" secondItem="22S-5b-436" secondAttribute="trailing" constant="74" id="Dqp-rm-xCY"/>
+                            <constraint firstAttribute="trailing" secondItem="ydW-Y6-Rhf" secondAttribute="trailing" constant="20" id="Rv6-Wd-u7H"/>
+                            <constraint firstItem="ydW-Y6-Rhf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="SSr-6c-m8U"/>
+                            <constraint firstItem="22S-5b-436" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="UFY-yT-V6M"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ydW-Y6-Rhf" secondAttribute="bottom" constant="150" id="b5L-kC-JGK"/>
+                            <constraint firstItem="ydW-Y6-Rhf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="35" id="jsr-oa-jlo"/>
+                            <constraint firstItem="9ae-QS-sES" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lgX-A0-RQr"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="22S-5b-436" secondAttribute="bottom" constant="200" id="nKE-Yy-BeG"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="backBottom" destination="nKE-Yy-BeG" id="UNm-LC-cac"/>
+                        <outlet property="backLeading" destination="1lX-gT-hvH" id="txf-0b-sQd"/>
+                        <outlet property="backTailing" destination="Dqp-rm-xCY" id="ge6-uD-Q2c"/>
+                        <outlet property="backTop" destination="UFY-yT-V6M" id="aDC-1F-aGX"/>
+                        <outlet property="backview" destination="22S-5b-436" id="FFq-gt-yMz"/>
+                        <outlet property="frontBottom" destination="b5L-kC-JGK" id="Ieu-Hk-SOh"/>
+                        <outlet property="frontLeading" destination="SSr-6c-m8U" id="Fy8-5N-Mz9"/>
+                        <outlet property="frontTop" destination="jsr-oa-jlo" id="Qve-Ia-ewX"/>
+                        <outlet property="frontTrailing" destination="Rv6-Wd-u7H" id="RlZ-ao-Ipb"/>
+                        <outlet property="frontView" destination="ydW-Y6-Rhf" id="hdl-jX-mX3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="171" y="408"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="kiwi.jpg" width="1644" height="1096"/>
+        <image name="kiwi_benefit.jpg" width="416" height="338"/>
+    </resources>
+</document>

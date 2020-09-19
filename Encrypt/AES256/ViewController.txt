@@ -1,0 +1,11 @@
+Encrypted: 76be70e3e63890e12572bc55ed8f95b1
+Decrypted: 68656c6c6f20776f726c64
+Password: foo
+Key: 848496354b13779568e1ee81f1f73428678f131c3d7501ef9ed99f7a7b4bf70c
+IV: 4bb9f6f8bfb7adaad584e032a4cd412f
+Salt: eedb0c8de0a9d09f
+----
+echo 68656c6c6f20776f726c64 | xxd -r -p > digest.txt
+echo 76be70e3e63890e12572bc55ed8f95b1 | xxd -r -p > encrypted.txt
+openssl aes-256-cbc -K 848496354b13779568e1ee81f1f73428678f131c3d7501ef9ed99f7a7b4bf70c -iv 4bb9f6f8bfb7adaad584e032a4cd412f -e -in digest.txt -out encrypted-openssl.txt
+openssl aes-256-cbc -K 848496354b13779568e1ee81f1f73428678f131c3d7501ef9ed99f7a7b4bf70c -iv 4bb9f6f8bfb7adaad584e032a4cd412f -d -in encrypted.txt -out decrypted-openssl.txt
