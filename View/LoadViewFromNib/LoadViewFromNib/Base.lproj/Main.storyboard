@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LoadViewFromNib" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fw7-wD-Dkt">
+                                <rect key="frame" x="0.0" y="418" width="320" height="150"/>
+                                <color key="backgroundColor" red="0.20723649150000001" green="0.2438434069" blue="0.66666666669999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="luu-dL-omL"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C4a-mH-rFL">
+                                <rect key="frame" x="91" y="54" width="138" height="30"/>
+                                <state key="normal" title="Show Other View"/>
+                                <connections>
+                                    <action selector="showOtherViewPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tpe-KR-t5P"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FZF-C1-Xne">
+                                <rect key="frame" x="96" y="98" width="129" height="30"/>
+                                <state key="normal" title="Hide Other View"/>
+                                <connections>
+                                    <action selector="hideOtherViewPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VkN-pX-nPe"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="fw7-wD-Dkt" secondAttribute="bottom" id="BMa-a2-6xl"/>
+                            <constraint firstItem="fw7-wD-Dkt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="N5m-lv-xQL"/>
+                            <constraint firstAttribute="trailing" secondItem="fw7-wD-Dkt" secondAttribute="trailing" id="fhf-L4-6Rj"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bottomView" destination="fw7-wD-Dkt" id="FF0-Y4-YNe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="161" y="368"/>
+        </scene>
+    </scenes>
+</document>

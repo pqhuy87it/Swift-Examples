@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AE38EB91F3308DD0044EB67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE38EB81F3308DD0044EB67 /* AppDelegate.swift */; };
+		2AE38EBB1F3308DD0044EB67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE38EBA1F3308DD0044EB67 /* ViewController.swift */; };
+		2AE38EBE1F3308DD0044EB67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AE38EBC1F3308DD0044EB67 /* Main.storyboard */; };
+		2AE38EC01F3308DD0044EB67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AE38EBF1F3308DD0044EB67 /* Assets.xcassets */; };
+		2AE38EC31F3308DD0044EB67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AE38EC11F3308DD0044EB67 /* LaunchScreen.storyboard */; };
+		2AE38ECE1F3308DD0044EB67 /* CreateImageTintColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE38ECD1F3308DD0044EB67 /* CreateImageTintColorTests.swift */; };
+		2AE38ED91F3308DD0044EB67 /* CreateImageTintColorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE38ED81F3308DD0044EB67 /* CreateImageTintColorUITests.swift */; };
+		2AE38EE71F330ADF0044EB67 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AE38EE61F330ADF0044EB67 /* image.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2AE38ECA1F3308DD0044EB67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AE38EAD1F3308DD0044EB67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AE38EB41F3308DD0044EB67;
+			remoteInfo = CreateImageTintColor;
+		};
+		2AE38ED51F3308DD0044EB67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AE38EAD1F3308DD0044EB67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AE38EB41F3308DD0044EB67;
+			remoteInfo = CreateImageTintColor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2AE38EB51F3308DD0044EB67 /* CreateImageTintColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreateImageTintColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AE38EB81F3308DD0044EB67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2AE38EBA1F3308DD0044EB67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2AE38EBD1F3308DD0044EB67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2AE38EBF1F3308DD0044EB67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AE38EC21F3308DD0044EB67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2AE38EC41F3308DD0044EB67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AE38EC91F3308DD0044EB67 /* CreateImageTintColorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreateImageTintColorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AE38ECD1F3308DD0044EB67 /* CreateImageTintColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateImageTintColorTests.swift; sourceTree = "<group>"; };
+		2AE38ECF1F3308DD0044EB67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AE38ED41F3308DD0044EB67 /* CreateImageTintColorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreateImageTintColorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AE38ED81F3308DD0044EB67 /* CreateImageTintColorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateImageTintColorUITests.swift; sourceTree = "<group>"; };
+		2AE38EDA1F3308DD0044EB67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AE38EE61F330ADF0044EB67 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AE38EB21F3308DD0044EB67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AE38EC61F3308DD0044EB67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AE38ED11F3308DD0044EB67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AE38EAC1F3308DD0044EB67 = {
+			isa = PBXGroup;
+			children = (
+				2AE38EB71F3308DD0044EB67 /* CreateImageTintColor */,
+				2AE38ECC1F3308DD0044EB67 /* CreateImageTintColorTests */,
+				2AE38ED71F3308DD0044EB67 /* CreateImageTintColorUITests */,
+				2AE38EB61F3308DD0044EB67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AE38EB61F3308DD0044EB67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AE38EB51F3308DD0044EB67 /* CreateImageTintColor.app */,
+				2AE38EC91F3308DD0044EB67 /* CreateImageTintColorTests.xctest */,
+				2AE38ED41F3308DD0044EB67 /* CreateImageTintColorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AE38EB71F3308DD0044EB67 /* CreateImageTintColor */ = {
+			isa = PBXGroup;
+			children = (
+				2AE38EE61F330ADF0044EB67 /* image.png */,
+				2AE38EB81F3308DD0044EB67 /* AppDelegate.swift */,
+				2AE38EBA1F3308DD0044EB67 /* ViewController.swift */,
+				2AE38EBC1F3308DD0044EB67 /* Main.storyboard */,
+				2AE38EBF1F3308DD0044EB67 /* Assets.xcassets */,
+				2AE38EC11F3308DD0044EB67 /* LaunchScreen.storyboard */,
+				2AE38EC41F3308DD0044EB67 /* Info.plist */,
+			);
+			path = CreateImageTintColor;
+			sourceTree = "<group>";
+		};
+		2AE38ECC1F3308DD0044EB67 /* CreateImageTintColorTests */ = {
+			isa = PBXGroup;
+			children = (
+				2AE38ECD1F3308DD0044EB67 /* CreateImageTintColorTests.swift */,
+				2AE38ECF1F3308DD0044EB67 /* Info.plist */,
+			);
+			path = CreateImageTintColorTests;
+			sourceTree = "<group>";
+		};
+		2AE38ED71F3308DD0044EB67 /* CreateImageTintColorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2AE38ED81F3308DD0044EB67 /* CreateImageTintColorUITests.swift */,
+				2AE38EDA1F3308DD0044EB67 /* Info.plist */,
+			);
+			path = CreateImageTintColorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AE38EB41F3308DD0044EB67 /* CreateImageTintColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AE38EDD1F3308DD0044EB67 /* Build configuration list for PBXNativeTarget "CreateImageTintColor" */;
+			buildPhases = (
+				2AE38EB11F3308DD0044EB67 /* Sources */,
+				2AE38EB21F3308DD0044EB67 /* Frameworks */,
+				2AE38EB31F3308DD0044EB67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CreateImageTintColor;
+			productName = CreateImageTintColor;
+			productReference = 2AE38EB51F3308DD0044EB67 /* CreateImageTintColor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2AE38EC81F3308DD0044EB67 /* CreateImageTintColorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AE38EE01F3308DD0044EB67 /* Build configuration list for PBXNativeTarget "CreateImageTintColorTests" */;
+			buildPhases = (
+				2AE38EC51F3308DD0044EB67 /* Sources */,
+				2AE38EC61F3308DD0044EB67 /* Frameworks */,
+				2AE38EC71F3308DD0044EB67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AE38ECB1F3308DD0044EB67 /* PBXTargetDependency */,
+			);
+			name = CreateImageTintColorTests;
+			productName = CreateImageTintColorTests;
+			productReference = 2AE38EC91F3308DD0044EB67 /* CreateImageTintColorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2AE38ED31F3308DD0044EB67 /* CreateImageTintColorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AE38EE31F3308DD0044EB67 /* Build configuration list for PBXNativeTarget "CreateImageTintColorUITests" */;
+			buildPhases = (
+				2AE38ED01F3308DD0044EB67 /* Sources */,
+				2AE38ED11F3308DD0044EB67 /* Frameworks */,
+				2AE38ED21F3308DD0044EB67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AE38ED61F3308DD0044EB67 /* PBXTargetDependency */,
+			);
+			name = CreateImageTintColorUITests;
+			productName = CreateImageTintColorUITests;
+			productReference = 2AE38ED41F3308DD0044EB67 /* CreateImageTintColorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AE38EAD1F3308DD0044EB67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = "Huy Pham";
+				TargetAttributes = {
+					2AE38EB41F3308DD0044EB67 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					2AE38EC81F3308DD0044EB67 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2AE38EB41F3308DD0044EB67;
+					};
+					2AE38ED31F3308DD0044EB67 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2AE38EB41F3308DD0044EB67;
+					};
+				};
+			};
+			buildConfigurationList = 2AE38EB01F3308DD0044EB67 /* Build configuration list for PBXProject "CreateImageTintColor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AE38EAC1F3308DD0044EB67;
+			productRefGroup = 2AE38EB61F3308DD0044EB67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AE38EB41F3308DD0044EB67 /* CreateImageTintColor */,
+				2AE38EC81F3308DD0044EB67 /* CreateImageTintColorTests */,
+				2AE38ED31F3308DD0044EB67 /* CreateImageTintColorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AE38EB31F3308DD0044EB67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AE38EC31F3308DD0044EB67 /* LaunchScreen.storyboard in Resources */,
+				2AE38EC01F3308DD0044EB67 /* Assets.xcassets in Resources */,
+				2AE38EBE1F3308DD0044EB67 /* Main.storyboard in Resources */,
+				2AE38EE71F330ADF0044EB67 /* image.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AE38EC71F3308DD0044EB67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AE38ED21F3308DD0044EB67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AE38EB11F3308DD0044EB67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AE38EBB1F3308DD0044EB67 /* ViewController.swift in Sources */,
+				2AE38EB91F3308DD0044EB67 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AE38EC51F3308DD0044EB67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AE38ECE1F3308DD0044EB67 /* CreateImageTintColorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AE38ED01F3308DD0044EB67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AE38ED91F3308DD0044EB67 /* CreateImageTintColorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AE38ECB1F3308DD0044EB67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AE38EB41F3308DD0044EB67 /* CreateImageTintColor */;
+			targetProxy = 2AE38ECA1F3308DD0044EB67 /* PBXContainerItemProxy */;
+		};
+		2AE38ED61F3308DD0044EB67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AE38EB41F3308DD0044EB67 /* CreateImageTintColor */;
+			targetProxy = 2AE38ED51F3308DD0044EB67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2AE38EBC1F3308DD0044EB67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AE38EBD1F3308DD0044EB67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2AE38EC11F3308DD0044EB67 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AE38EC21F3308DD0044EB67 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AE38EDB1F3308DD0044EB67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2AE38EDC1F3308DD0044EB67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AE38EDE1F3308DD0044EB67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CreateImageTintColor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Framgia.CreateImageTintColor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2AE38EDF1F3308DD0044EB67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CreateImageTintColor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Framgia.CreateImageTintColor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2AE38EE11F3308DD0044EB67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CreateImageTintColorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Framgia.CreateImageTintColorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CreateImageTintColor.app/CreateImageTintColor";
+			};
+			name = Debug;
+		};
+		2AE38EE21F3308DD0044EB67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CreateImageTintColorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Framgia.CreateImageTintColorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CreateImageTintColor.app/CreateImageTintColor";
+			};
+			name = Release;
+		};
+		2AE38EE41F3308DD0044EB67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CreateImageTintColorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Framgia.CreateImageTintColorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CreateImageTintColor;
+			};
+			name = Debug;
+		};
+		2AE38EE51F3308DD0044EB67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CreateImageTintColorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Framgia.CreateImageTintColorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CreateImageTintColor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AE38EB01F3308DD0044EB67 /* Build configuration list for PBXProject "CreateImageTintColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AE38EDB1F3308DD0044EB67 /* Debug */,
+				2AE38EDC1F3308DD0044EB67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AE38EDD1F3308DD0044EB67 /* Build configuration list for PBXNativeTarget "CreateImageTintColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AE38EDE1F3308DD0044EB67 /* Debug */,
+				2AE38EDF1F3308DD0044EB67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AE38EE01F3308DD0044EB67 /* Build configuration list for PBXNativeTarget "CreateImageTintColorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AE38EE11F3308DD0044EB67 /* Debug */,
+				2AE38EE21F3308DD0044EB67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AE38EE31F3308DD0044EB67 /* Build configuration list for PBXNativeTarget "CreateImageTintColorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AE38EE41F3308DD0044EB67 /* Debug */,
+				2AE38EE51F3308DD0044EB67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AE38EAD1F3308DD0044EB67 /* Project object */;
+}
