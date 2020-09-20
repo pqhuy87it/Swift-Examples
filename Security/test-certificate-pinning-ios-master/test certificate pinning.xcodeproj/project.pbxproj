@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C41351D203DC55900EBB481 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C41351C203DC55900EBB481 /* AppDelegate.swift */; };
+		9C41351F203DC55900EBB481 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C41351E203DC55900EBB481 /* ViewController.swift */; };
+		9C413522203DC55900EBB481 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C413520203DC55900EBB481 /* Main.storyboard */; };
+		9C413524203DC55900EBB481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C413523203DC55900EBB481 /* Assets.xcassets */; };
+		9C413527203DC55900EBB481 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C413525203DC55900EBB481 /* LaunchScreen.storyboard */; };
+		9C41352F203DC6C500EBB481 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C41352E203DC6C500EBB481 /* NetworkManager.swift */; };
+		9C413530203DC70D00EBB481 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C413532203DC70D00EBB481 /* Alamofire.framework */; };
+		9C413531203DC70D00EBB481 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C413533203DC70D00EBB481 /* SwiftyJSON.framework */; };
+		9C41353C203DCDB100EBB481 /* uslinkedincom.crt in Resources */ = {isa = PBXBuildFile; fileRef = 9C41353B203DCDB000EBB481 /* uslinkedincom.crt */; };
+		DCE68DB99E6877B0E3CA9AFD /* Pods_test_certificate_pinning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F80EF47E2A056700E83E238C /* Pods_test_certificate_pinning.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2874241C27539F5B6D9C455D /* Pods-test certificate pinning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test certificate pinning.debug.xcconfig"; path = "Pods/Target Support Files/Pods-test certificate pinning/Pods-test certificate pinning.debug.xcconfig"; sourceTree = "<group>"; };
+		9C413519203DC55900EBB481 /* test certificate pinning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test certificate pinning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C41351C203DC55900EBB481 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C41351E203DC55900EBB481 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C413521203DC55900EBB481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C413523203DC55900EBB481 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C413526203DC55900EBB481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C413528203DC55900EBB481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C41352E203DC6C500EBB481 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		9C413532203DC70D00EBB481 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C413533203DC70D00EBB481 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C413534203DC91800EBB481 /* www.apple.com.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = www.apple.com.cer; sourceTree = "<group>"; };
+		9C413536203DCC9A00EBB481 /* wwwapplecom.crt */ = {isa = PBXFileReference; lastKnownFileType = file; path = wwwapplecom.crt; sourceTree = "<group>"; };
+		9C413538203DCCCF00EBB481 /* incapsulacom.crt */ = {isa = PBXFileReference; lastKnownFileType = file; path = incapsulacom.crt; sourceTree = "<group>"; };
+		9C413539203DCCCF00EBB481 /* *googlecom.crt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "*googlecom.crt"; sourceTree = "<group>"; };
+		9C41353A203DCDAC00EBB481 /* us.linkedin.com.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = us.linkedin.com.cer; sourceTree = "<group>"; };
+		9C41353B203DCDB000EBB481 /* uslinkedincom.crt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = uslinkedincom.crt; sourceTree = "<group>"; };
+		9C41353D203DCDF600EBB481 /* incapsula.com.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = incapsula.com.cer; sourceTree = "<group>"; };
+		9C41353E203DCDF600EBB481 /* *.google.com.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = "*.google.com.cer"; sourceTree = "<group>"; };
+		F456B7C2247C9D2F9C0C7EF5 /* Pods-test certificate pinning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test certificate pinning.release.xcconfig"; path = "Pods/Target Support Files/Pods-test certificate pinning/Pods-test certificate pinning.release.xcconfig"; sourceTree = "<group>"; };
+		F80EF47E2A056700E83E238C /* Pods_test_certificate_pinning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test_certificate_pinning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C413516203DC55900EBB481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C413530203DC70D00EBB481 /* Alamofire.framework in Frameworks */,
+				9C413531203DC70D00EBB481 /* SwiftyJSON.framework in Frameworks */,
+				DCE68DB99E6877B0E3CA9AFD /* Pods_test_certificate_pinning.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C413510203DC55900EBB481 = {
+			isa = PBXGroup;
+			children = (
+				9C41351B203DC55900EBB481 /* test certificate pinning */,
+				9C41351A203DC55900EBB481 /* Products */,
+				D79B9389F966DB2EF58A2CAF /* Pods */,
+				DD6B750BC9678DF344D7F031 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9C41351A203DC55900EBB481 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C413519203DC55900EBB481 /* test certificate pinning.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C41351B203DC55900EBB481 /* test certificate pinning */ = {
+			isa = PBXGroup;
+			children = (
+				9C41351C203DC55900EBB481 /* AppDelegate.swift */,
+				9C41351E203DC55900EBB481 /* ViewController.swift */,
+				9C413520203DC55900EBB481 /* Main.storyboard */,
+				9C413523203DC55900EBB481 /* Assets.xcassets */,
+				9C413525203DC55900EBB481 /* LaunchScreen.storyboard */,
+				9C413528203DC55900EBB481 /* Info.plist */,
+				9C41352E203DC6C500EBB481 /* NetworkManager.swift */,
+				9C41353B203DCDB000EBB481 /* uslinkedincom.crt */,
+				9C41353A203DCDAC00EBB481 /* us.linkedin.com.cer */,
+				9C413539203DCCCF00EBB481 /* *googlecom.crt */,
+				9C41353E203DCDF600EBB481 /* *.google.com.cer */,
+				9C413538203DCCCF00EBB481 /* incapsulacom.crt */,
+				9C41353D203DCDF600EBB481 /* incapsula.com.cer */,
+				9C413536203DCC9A00EBB481 /* wwwapplecom.crt */,
+				9C413534203DC91800EBB481 /* www.apple.com.cer */,
+			);
+			path = "test certificate pinning";
+			sourceTree = "<group>";
+		};
+		D79B9389F966DB2EF58A2CAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2874241C27539F5B6D9C455D /* Pods-test certificate pinning.debug.xcconfig */,
+				F456B7C2247C9D2F9C0C7EF5 /* Pods-test certificate pinning.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DD6B750BC9678DF344D7F031 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C413532203DC70D00EBB481 /* Alamofire.framework */,
+				9C413533203DC70D00EBB481 /* SwiftyJSON.framework */,
+				F80EF47E2A056700E83E238C /* Pods_test_certificate_pinning.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C413518203DC55900EBB481 /* test certificate pinning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C41352B203DC55900EBB481 /* Build configuration list for PBXNativeTarget "test certificate pinning" */;
+			buildPhases = (
+				54DA3BDCDB089374E15E14D4 /* [CP] Check Pods Manifest.lock */,
+				9C413515203DC55900EBB481 /* Sources */,
+				9C413516203DC55900EBB481 /* Frameworks */,
+				9C413517203DC55900EBB481 /* Resources */,
+				A9542E8239339E63E13A6596 /* [CP] Embed Pods Frameworks */,
+				0D37E5C3D4B013E650EEF6F9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "test certificate pinning";
+			productName = "test certificate pinning";
+			productReference = 9C413519203DC55900EBB481 /* test certificate pinning.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C413511203DC55900EBB481 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Antonio Chiappetta";
+				TargetAttributes = {
+					9C413518203DC55900EBB481 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9C413514203DC55900EBB481 /* Build configuration list for PBXProject "test certificate pinning" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C413510203DC55900EBB481;
+			productRefGroup = 9C41351A203DC55900EBB481 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C413518203DC55900EBB481 /* test certificate pinning */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C413517203DC55900EBB481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C413527203DC55900EBB481 /* LaunchScreen.storyboard in Resources */,
+				9C41353C203DCDB100EBB481 /* uslinkedincom.crt in Resources */,
+				9C413524203DC55900EBB481 /* Assets.xcassets in Resources */,
+				9C413522203DC55900EBB481 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D37E5C3D4B013E650EEF6F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test certificate pinning/Pods-test certificate pinning-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54DA3BDCDB089374E15E14D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-test certificate pinning-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9542E8239339E63E13A6596 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-test certificate pinning/Pods-test certificate pinning-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test certificate pinning/Pods-test certificate pinning-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C413515203DC55900EBB481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C41352F203DC6C500EBB481 /* NetworkManager.swift in Sources */,
+				9C41351F203DC55900EBB481 /* ViewController.swift in Sources */,
+				9C41351D203DC55900EBB481 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9C413520203DC55900EBB481 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C413521203DC55900EBB481 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C413525203DC55900EBB481 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C413526203DC55900EBB481 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C413529203DC55900EBB481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C41352A203DC55900EBB481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C41352C203DC55900EBB481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2874241C27539F5B6D9C455D /* Pods-test certificate pinning.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L37UQ6NGZG;
+				INFOPLIST_FILE = "test certificate pinning/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "it.antoniochiappetta.test-certificate-pinning";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C41352D203DC55900EBB481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F456B7C2247C9D2F9C0C7EF5 /* Pods-test certificate pinning.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L37UQ6NGZG;
+				INFOPLIST_FILE = "test certificate pinning/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "it.antoniochiappetta.test-certificate-pinning";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C413514203DC55900EBB481 /* Build configuration list for PBXProject "test certificate pinning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C413529203DC55900EBB481 /* Debug */,
+				9C41352A203DC55900EBB481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C41352B203DC55900EBB481 /* Build configuration list for PBXNativeTarget "test certificate pinning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C41352C203DC55900EBB481 /* Debug */,
+				9C41352D203DC55900EBB481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C413511203DC55900EBB481 /* Project object */;
+}

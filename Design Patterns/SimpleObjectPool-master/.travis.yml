@@ -1,0 +1,20 @@
+language: objective-c
+osx_image: xcode8.2
+
+before_install:
+  - test $CI && curl -sSL https://raw.githubusercontent.com/paulmelnikow/simon-says/master/simon-says -o simon-says && chmod +x simon-says
+  - ./simon-says prepare
+  - ./simon-says appledoc install
+
+before_script:
+  - (cd TestProject && pod install)
+
+script:
+  - ./simon-says test TestProject/TestProject.xcworkspace Tests "platform=iOS Simulator,name=iPhone 7 Plus,OS=10.2"
+  - ./simon-says appledoc test *.h || true
+  - pod lib lint
+
+notifications:
+  slack:
+    on_success: change
+    secure: hr5jfA0/J04KYYIWtFeqepuwfAEkI1LqUhrFql8nCGzAlGAi0v/z2XB/845fBlSK897Xfv1Q7ftZ19IO6Hyd1GsWCGXQsGJHH95/k7vE0DRnOdzyXpH+zIC/a3AtpJOZF3zw5tVan0tdGiDeS6VoqS8IZfLgsFyS7Zr1oWtqCwU=

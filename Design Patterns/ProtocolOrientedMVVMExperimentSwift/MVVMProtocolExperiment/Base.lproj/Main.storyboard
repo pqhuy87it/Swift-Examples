@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="1GC-kp-uKU">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Settings-->
+        <scene sceneID="uVe-Ji-nZX">
+            <objects>
+                <tableViewController id="u7r-fl-7rD" customClass="SettingsViewController" customModule="MVVMProtocolExperiment" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="He9-9a-3Mq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.89812389172066664" blue="0.78710313608365634" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="SwitchWithTextTableViewCell" id="NS6-BQ-Lr1" customClass="SwitchWithTextTableViewCell" customModule="MVVMProtocolExperiment" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NS6-BQ-Lr1" id="07g-A1-K4X">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R4y-k4-APK">
+                                            <rect key="frame" x="15" y="11.666666666666666" width="42" height="20.666666666666671"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" systemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uuS-r2-gXD">
+                                            <rect key="frame" x="345" y="6.6666666666666679" width="51" height="31.000000000000004"/>
+                                            <connections>
+                                                <action selector="onSwitchToggleWithSender:" destination="NS6-BQ-Lr1" eventType="valueChanged" id="obh-Eo-p8x"/>
+                                            </connections>
+                                        </switch>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstItem="R4y-k4-APK" firstAttribute="leading" secondItem="07g-A1-K4X" secondAttribute="leading" constant="15" id="6dV-eK-wlw"/>
+                                        <constraint firstItem="uuS-r2-gXD" firstAttribute="trailing" secondItem="07g-A1-K4X" secondAttribute="trailingMargin" id="NR9-EZ-i4z"/>
+                                        <constraint firstItem="uuS-r2-gXD" firstAttribute="centerY" secondItem="07g-A1-K4X" secondAttribute="centerY" id="bEl-wy-3LA"/>
+                                        <constraint firstItem="R4y-k4-APK" firstAttribute="leading" secondItem="07g-A1-K4X" secondAttribute="leadingMargin" id="iCt-tE-Ix3"/>
+                                        <constraint firstItem="R4y-k4-APK" firstAttribute="centerY" secondItem="07g-A1-K4X" secondAttribute="centerY" id="xLW-sb-hzY"/>
+                                    </constraints>
+                                    <variation key="default">
+                                        <mask key="constraints">
+                                            <exclude reference="iCt-tE-Ix3"/>
+                                        </mask>
+                                    </variation>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <outlet property="label" destination="R4y-k4-APK" id="GkS-bY-qmk"/>
+                                    <outlet property="switchToggle" destination="uuS-r2-gXD" id="KUh-fN-kbM"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="u7r-fl-7rD" id="t0E-vZ-QH2"/>
+                            <outlet property="delegate" destination="u7r-fl-7rD" id="pYW-Mq-bBg"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Settings" id="Mo8-ED-QGw"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0C0-UJ-6H0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="591" y="347"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="WoD-Qm-c1F">
+            <objects>
+                <navigationController id="1GC-kp-uKU" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="yFe-DE-JDj">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="u7r-fl-7rD" kind="relationship" relationship="rootViewController" id="bkh-6a-cJF"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IDQ-9P-Upt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-229" y="347"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="darkTextColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,6 @@
+framework module Pods_PhotoViewController {
+  umbrella header "Pods-PhotoViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}
