@@ -340,6 +340,7 @@ class DatePickerInputView: UIView {
 }
 
 // MARK: UIPickerViewDataSource
+
 extension DatePickerInputView: UIPickerViewDataSource {
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         if self.datePickerMode == .yearOnly || self.datePickerMode == .monthOnly || self.datePickerMode == .dayOnly {
