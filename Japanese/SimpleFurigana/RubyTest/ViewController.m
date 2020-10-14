@@ -37,7 +37,7 @@
     [self.scrollView setTranslatesAutoresizingMaskIntoConstraints:NO];
     self.rubyView.hostingScrollView=self.scrollView;
 
-	NSString *string = @"知り合いに息子の就職を頼む";
+	NSString *string = @"いたずらな子どもが、線路に石を置いた";
 	NSString *formattedFurigana = [string stringByFormatFurigana];
 	NSLog(@"%@",formattedFurigana);
 }

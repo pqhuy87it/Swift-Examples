@@ -411,7 +411,47 @@ char_class getCharClass(unichar c){
 			NSRange subRange = NSMakeRange(locationModify, [hiragana length] - locationModify - lengthModify);
 			NSString *modifyHiragana = [hiragana substringWithRange: subRange];
 			NSRange range= NSMakeRange(currentRange.location + locationModify, currentRange.length - locationModify - lengthModify);
-			NSString *replaceHiragana = [NSString stringWithFormat:@"｜%@＜%@＞", subString2, modifyHiragana];
+			NSString *replaceHiragana;
+
+			// loop through the string char by char
+			NSUInteger startIndexHiragana = 0;
+			NSUInteger startIndexKanji = 0;
+			NSString *formatMidString = @"";
+			NSString *remainKanji = @"";
+			NSString *remainHiragana = @"";
+
+			for(int i = 0; i < [subString2 length]; i++) {
+				BOOL isKanji = IS_JA_KANJI([subString2 characterAtIndex:i]);
+
+				if (!isKanji) {
+					NSString *str = [NSString  stringWithFormat:@"%C", [subString2 characterAtIndex:i]];
+					NSRange fRange = [modifyHiragana rangeOfString:str];
+
+					if (fRange.location != NSNotFound) {
+						NSString *kanji1 = [subString2 substringWithRange:NSMakeRange(startIndexKanji, i)];
+						NSString *hiragana1 = [modifyHiragana substringWithRange: NSMakeRange(startIndexHiragana, fRange.location)];
+
+						formatMidString = [NSString stringWithFormat:@"%@｜%@＜%@＞%@", formatMidString, kanji1, hiragana1, str];
+
+						startIndexKanji = i;
+						startIndexHiragana = fRange.location;
+
+						remainKanji = [subString2 substringWithRange:NSMakeRange(i+1, [subString2 length] - (i + 1))];
+						remainHiragana = [modifyHiragana substringWithRange:NSMakeRange(fRange.location + 1, [modifyHiragana length] - (fRange.location + 1))];
+					}
+				}
+
+				if ((i == [subString2 length] - 1) && ([remainKanji length]) > 0) {
+					formatMidString = [NSString stringWithFormat:@"%@｜%@＜%@＞", formatMidString, remainKanji, remainHiragana];
+				}
+			}
+
+			if ([formatMidString length] > 0) {
+				replaceHiragana = formatMidString;
+			} else {
+				replaceHiragana = [NSString stringWithFormat:@"｜%@＜%@＞", subString2, modifyHiragana];
+			}
+
 			NSMutableDictionary *dict = [NSMutableDictionary dictionary];
 			[dict setObject:replaceHiragana forKey: [NSValue valueWithRange:range]];
 
@@ -662,6 +702,33 @@ char_class getCharClass(unichar c){
 
 	return (1- (adjustedCount/targetTotal)*(1-lengthRatio));
 
+}
+
+- (NSDictionary *)JSONFromFile:(NSString*)fileName
+{
+	NSString *path = [[NSBundle mainBundle] pathForResource:fileName ofType:@"json"];
+	NSData *data = [NSData dataWithContentsOfFile:path];
+	return [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
+}
+
+- (void)doSomethingWithTheJson
+{
+	NSDictionary *dict = [self JSONFromFile:@""];
+
+	NSArray *colours = [dict objectForKey:@"colors"];
+
+	for (NSDictionary *colour in colours) {
+		NSString *name = [colour objectForKey:@"name"];
+		NSLog(@"Colour name: %@", name);
+
+		if ([name isEqualToString:@"green"]) {
+			NSArray *pictures = [colour objectForKey:@"pictures"];
+			for (NSDictionary *picture in pictures) {
+				NSString *pictureName = [picture objectForKey:@"name"];
+				NSLog(@"Picture name: %@", pictureName);
+			}
+		}
+	}
 }
 
 
