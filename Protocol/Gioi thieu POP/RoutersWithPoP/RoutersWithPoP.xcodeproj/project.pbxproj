@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		847388BCF8BA4909DB2D64FE /* Pods_RoutersWithPoP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93189083B4EF7678863808AC /* Pods_RoutersWithPoP.framework */; };
+		DEEDBDDF1F34887300FC9FFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEDBDDE1F34887300FC9FFD /* AppDelegate.swift */; };
+		DEEDBDE11F34887300FC9FFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEDBDE01F34887300FC9FFD /* ViewController.swift */; };
+		DEEDBDE41F34887300FC9FFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEEDBDE21F34887300FC9FFD /* Main.storyboard */; };
+		DEEDBDE61F34887300FC9FFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEEDBDE51F34887300FC9FFD /* Assets.xcassets */; };
+		DEEDBDE91F34887300FC9FFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEEDBDE71F34887300FC9FFD /* LaunchScreen.storyboard */; };
+		DEEDBDF41F34887300FC9FFD /* RoutersWithPoPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEDBDF31F34887300FC9FFD /* RoutersWithPoPTests.swift */; };
+		DEEDBDFF1F34887300FC9FFD /* RoutersWithPoPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEDBDFE1F34887300FC9FFD /* RoutersWithPoPUITests.swift */; };
+		DEEDBE101F348DAF00FC9FFD /* RouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEDBE0F1F348DAF00FC9FFD /* RouterProtocol.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEEDBDF01F34887300FC9FFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEEDBDD31F34887300FC9FFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEEDBDDA1F34887300FC9FFD;
+			remoteInfo = RoutersWithPoP;
+		};
+		DEEDBDFB1F34887300FC9FFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEEDBDD31F34887300FC9FFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEEDBDDA1F34887300FC9FFD;
+			remoteInfo = RoutersWithPoP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A3AFE271C9043C55A52AEF5 /* Pods-RoutersWithPoP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoutersWithPoP.release.xcconfig"; path = "Pods/Target Support Files/Pods-RoutersWithPoP/Pods-RoutersWithPoP.release.xcconfig"; sourceTree = "<group>"; };
+		902C1AE8A23699D9C1BA6DE2 /* Pods-RoutersWithPoP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoutersWithPoP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RoutersWithPoP/Pods-RoutersWithPoP.debug.xcconfig"; sourceTree = "<group>"; };
+		93189083B4EF7678863808AC /* Pods_RoutersWithPoP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoutersWithPoP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEEDBDDB1F34887300FC9FFD /* RoutersWithPoP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoutersWithPoP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEEDBDDE1F34887300FC9FFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEEDBDE01F34887300FC9FFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEEDBDE31F34887300FC9FFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEEDBDE51F34887300FC9FFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEEDBDE81F34887300FC9FFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEEDBDEA1F34887300FC9FFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEEDBDEF1F34887300FC9FFD /* RoutersWithPoPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoutersWithPoPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEEDBDF31F34887300FC9FFD /* RoutersWithPoPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutersWithPoPTests.swift; sourceTree = "<group>"; };
+		DEEDBDF51F34887300FC9FFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEEDBDFA1F34887300FC9FFD /* RoutersWithPoPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoutersWithPoPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEEDBDFE1F34887300FC9FFD /* RoutersWithPoPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutersWithPoPUITests.swift; sourceTree = "<group>"; };
+		DEEDBE001F34887300FC9FFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEEDBE0F1F348DAF00FC9FFD /* RouterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouterProtocol.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEEDBDD81F34887300FC9FFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847388BCF8BA4909DB2D64FE /* Pods_RoutersWithPoP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEEDBDEC1F34887300FC9FFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEEDBDF71F34887300FC9FFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F7390298C8CAEBD207A988B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93189083B4EF7678863808AC /* Pods_RoutersWithPoP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A90F10E326C3CE377DD896BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				902C1AE8A23699D9C1BA6DE2 /* Pods-RoutersWithPoP.debug.xcconfig */,
+				1A3AFE271C9043C55A52AEF5 /* Pods-RoutersWithPoP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DEEDBDD21F34887300FC9FFD = {
+			isa = PBXGroup;
+			children = (
+				DEEDBDDD1F34887300FC9FFD /* RoutersWithPoP */,
+				DEEDBDF21F34887300FC9FFD /* RoutersWithPoPTests */,
+				DEEDBDFD1F34887300FC9FFD /* RoutersWithPoPUITests */,
+				DEEDBDDC1F34887300FC9FFD /* Products */,
+				A90F10E326C3CE377DD896BA /* Pods */,
+				0F7390298C8CAEBD207A988B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DEEDBDDC1F34887300FC9FFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEEDBDDB1F34887300FC9FFD /* RoutersWithPoP.app */,
+				DEEDBDEF1F34887300FC9FFD /* RoutersWithPoPTests.xctest */,
+				DEEDBDFA1F34887300FC9FFD /* RoutersWithPoPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEEDBDDD1F34887300FC9FFD /* RoutersWithPoP */ = {
+			isa = PBXGroup;
+			children = (
+				DEEDBE0C1F34887B00FC9FFD /* Protocol */,
+				DEEDBDDE1F34887300FC9FFD /* AppDelegate.swift */,
+				DEEDBDE01F34887300FC9FFD /* ViewController.swift */,
+				DEEDBDE21F34887300FC9FFD /* Main.storyboard */,
+				DEEDBDE51F34887300FC9FFD /* Assets.xcassets */,
+				DEEDBDE71F34887300FC9FFD /* LaunchScreen.storyboard */,
+				DEEDBDEA1F34887300FC9FFD /* Info.plist */,
+			);
+			path = RoutersWithPoP;
+			sourceTree = "<group>";
+		};
+		DEEDBDF21F34887300FC9FFD /* RoutersWithPoPTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEEDBDF31F34887300FC9FFD /* RoutersWithPoPTests.swift */,
+				DEEDBDF51F34887300FC9FFD /* Info.plist */,
+			);
+			path = RoutersWithPoPTests;
+			sourceTree = "<group>";
+		};
+		DEEDBDFD1F34887300FC9FFD /* RoutersWithPoPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DEEDBDFE1F34887300FC9FFD /* RoutersWithPoPUITests.swift */,
+				DEEDBE001F34887300FC9FFD /* Info.plist */,
+			);
+			path = RoutersWithPoPUITests;
+			sourceTree = "<group>";
+		};
+		DEEDBE0C1F34887B00FC9FFD /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				DEEDBE0F1F348DAF00FC9FFD /* RouterProtocol.swift */,
+			);
+			name = Protocol;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEEDBDDA1F34887300FC9FFD /* RoutersWithPoP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEEDBE031F34887300FC9FFD /* Build configuration list for PBXNativeTarget "RoutersWithPoP" */;
+			buildPhases = (
+				53AB9DF42A3668FB0A605DFB /* [CP] Check Pods Manifest.lock */,
+				DEEDBDD71F34887300FC9FFD /* Sources */,
+				DEEDBDD81F34887300FC9FFD /* Frameworks */,
+				DEEDBDD91F34887300FC9FFD /* Resources */,
+				4A72B14FCA4F6F6110742866 /* [CP] Embed Pods Frameworks */,
+				16A461165B0A91B84A8AA301 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoutersWithPoP;
+			productName = RoutersWithPoP;
+			productReference = DEEDBDDB1F34887300FC9FFD /* RoutersWithPoP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEEDBDEE1F34887300FC9FFD /* RoutersWithPoPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEEDBE061F34887300FC9FFD /* Build configuration list for PBXNativeTarget "RoutersWithPoPTests" */;
+			buildPhases = (
+				DEEDBDEB1F34887300FC9FFD /* Sources */,
+				DEEDBDEC1F34887300FC9FFD /* Frameworks */,
+				DEEDBDED1F34887300FC9FFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEEDBDF11F34887300FC9FFD /* PBXTargetDependency */,
+			);
+			name = RoutersWithPoPTests;
+			productName = RoutersWithPoPTests;
+			productReference = DEEDBDEF1F34887300FC9FFD /* RoutersWithPoPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DEEDBDF91F34887300FC9FFD /* RoutersWithPoPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEEDBE091F34887300FC9FFD /* Build configuration list for PBXNativeTarget "RoutersWithPoPUITests" */;
+			buildPhases = (
+				DEEDBDF61F34887300FC9FFD /* Sources */,
+				DEEDBDF71F34887300FC9FFD /* Frameworks */,
+				DEEDBDF81F34887300FC9FFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEEDBDFC1F34887300FC9FFD /* PBXTargetDependency */,
+			);
+			name = RoutersWithPoPUITests;
+			productName = RoutersWithPoPUITests;
+			productReference = DEEDBDFA1F34887300FC9FFD /* RoutersWithPoPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEEDBDD31F34887300FC9FFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Pham Quang Huy";
+				TargetAttributes = {
+					DEEDBDDA1F34887300FC9FFD = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					DEEDBDEE1F34887300FC9FFD = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DEEDBDDA1F34887300FC9FFD;
+					};
+					DEEDBDF91F34887300FC9FFD = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DEEDBDDA1F34887300FC9FFD;
+					};
+				};
+			};
+			buildConfigurationList = DEEDBDD61F34887300FC9FFD /* Build configuration list for PBXProject "RoutersWithPoP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEEDBDD21F34887300FC9FFD;
+			productRefGroup = DEEDBDDC1F34887300FC9FFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEEDBDDA1F34887300FC9FFD /* RoutersWithPoP */,
+				DEEDBDEE1F34887300FC9FFD /* RoutersWithPoPTests */,
+				DEEDBDF91F34887300FC9FFD /* RoutersWithPoPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEEDBDD91F34887300FC9FFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEEDBDE91F34887300FC9FFD /* LaunchScreen.storyboard in Resources */,
+				DEEDBDE61F34887300FC9FFD /* Assets.xcassets in Resources */,
+				DEEDBDE41F34887300FC9FFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEEDBDED1F34887300FC9FFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEEDBDF81F34887300FC9FFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16A461165B0A91B84A8AA301 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoutersWithPoP/Pods-RoutersWithPoP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A72B14FCA4F6F6110742866 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoutersWithPoP/Pods-RoutersWithPoP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53AB9DF42A3668FB0A605DFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEEDBDD71F34887300FC9FFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEEDBE101F348DAF00FC9FFD /* RouterProtocol.swift in Sources */,
+				DEEDBDE11F34887300FC9FFD /* ViewController.swift in Sources */,
+				DEEDBDDF1F34887300FC9FFD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEEDBDEB1F34887300FC9FFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEEDBDF41F34887300FC9FFD /* RoutersWithPoPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEEDBDF61F34887300FC9FFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEEDBDFF1F34887300FC9FFD /* RoutersWithPoPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEEDBDF11F34887300FC9FFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEEDBDDA1F34887300FC9FFD /* RoutersWithPoP */;
+			targetProxy = DEEDBDF01F34887300FC9FFD /* PBXContainerItemProxy */;
+		};
+		DEEDBDFC1F34887300FC9FFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEEDBDDA1F34887300FC9FFD /* RoutersWithPoP */;
+			targetProxy = DEEDBDFB1F34887300FC9FFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEEDBDE21F34887300FC9FFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEEDBDE31F34887300FC9FFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEEDBDE71F34887300FC9FFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEEDBDE81F34887300FC9FFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEEDBE011F34887300FC9FFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEEDBE021F34887300FC9FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEEDBE041F34887300FC9FFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 902C1AE8A23699D9C1BA6DE2 /* Pods-RoutersWithPoP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RoutersWithPoP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = framgia.RoutersWithPoP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DEEDBE051F34887300FC9FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A3AFE271C9043C55A52AEF5 /* Pods-RoutersWithPoP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RoutersWithPoP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = framgia.RoutersWithPoP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DEEDBE071F34887300FC9FFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RoutersWithPoPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = framgia.RoutersWithPoPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoutersWithPoP.app/RoutersWithPoP";
+			};
+			name = Debug;
+		};
+		DEEDBE081F34887300FC9FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RoutersWithPoPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = framgia.RoutersWithPoPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoutersWithPoP.app/RoutersWithPoP";
+			};
+			name = Release;
+		};
+		DEEDBE0A1F34887300FC9FFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = RoutersWithPoPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = framgia.RoutersWithPoPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RoutersWithPoP;
+			};
+			name = Debug;
+		};
+		DEEDBE0B1F34887300FC9FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = RoutersWithPoPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = framgia.RoutersWithPoPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RoutersWithPoP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEEDBDD61F34887300FC9FFD /* Build configuration list for PBXProject "RoutersWithPoP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEEDBE011F34887300FC9FFD /* Debug */,
+				DEEDBE021F34887300FC9FFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEEDBE031F34887300FC9FFD /* Build configuration list for PBXNativeTarget "RoutersWithPoP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEEDBE041F34887300FC9FFD /* Debug */,
+				DEEDBE051F34887300FC9FFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEEDBE061F34887300FC9FFD /* Build configuration list for PBXNativeTarget "RoutersWithPoPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEEDBE071F34887300FC9FFD /* Debug */,
+				DEEDBE081F34887300FC9FFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEEDBE091F34887300FC9FFD /* Build configuration list for PBXNativeTarget "RoutersWithPoPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEEDBE0A1F34887300FC9FFD /* Debug */,
+				DEEDBE0B1F34887300FC9FFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEEDBDD31F34887300FC9FFD /* Project object */;
+}

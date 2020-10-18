@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TextValidation" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dDp-lq-dBx">
+                                <rect key="frame" x="0.0" y="243.5" width="375" height="180"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ivG-7K-Zzr">
+                                        <rect key="frame" x="10" y="81" width="92.5" height="20"/>
+                                        <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="MUp-kg-aBz">
+                                        <rect key="frame" x="107.5" y="25.5" width="257.5" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="BYZ-38-t0r" id="gAk-Mi-kw0"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iw8-vo-jzw">
+                                        <rect key="frame" x="107.5" y="76" width="257.5" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="BYZ-38-t0r" id="ysv-x6-8mJ"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wzP-ob-RMC">
+                                        <rect key="frame" x="107.5" y="121" width="257.5" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="BYZ-38-t0r" id="DJz-7O-PiE"/>
+                                        </connections>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yLY-Hg-WEc">
+                                        <rect key="frame" x="10" y="30" width="92.5" height="20"/>
+                                        <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hQV-Cg-cca">
+                                        <rect key="frame" x="10" y="126" width="92.5" height="20"/>
+                                        <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="yLY-Hg-WEc" firstAttribute="top" secondItem="dDp-lq-dBx" secondAttribute="top" constant="30" id="1Zu-2p-dqu"/>
+                                    <constraint firstItem="MUp-kg-aBz" firstAttribute="centerY" secondItem="yLY-Hg-WEc" secondAttribute="centerY" id="BBR-yX-i9a"/>
+                                    <constraint firstItem="iw8-vo-jzw" firstAttribute="centerY" secondItem="ivG-7K-Zzr" secondAttribute="centerY" id="Gyc-GB-sE2"/>
+                                    <constraint firstAttribute="trailing" secondItem="MUp-kg-aBz" secondAttribute="trailing" constant="10" id="Idg-w2-TA5"/>
+                                    <constraint firstAttribute="trailing" secondItem="iw8-vo-jzw" secondAttribute="trailing" constant="10" id="MDK-7E-nuo"/>
+                                    <constraint firstItem="iw8-vo-jzw" firstAttribute="leading" secondItem="ivG-7K-Zzr" secondAttribute="trailing" constant="5" id="RCH-ew-o5U"/>
+                                    <constraint firstItem="ivG-7K-Zzr" firstAttribute="top" secondItem="MUp-kg-aBz" secondAttribute="bottom" constant="25" id="TDi-x1-T7o"/>
+                                    <constraint firstAttribute="trailing" secondItem="wzP-ob-RMC" secondAttribute="trailing" constant="10" id="Yfh-yx-DgP"/>
+                                    <constraint firstItem="MUp-kg-aBz" firstAttribute="leading" secondItem="yLY-Hg-WEc" secondAttribute="trailing" constant="5" id="Z7g-st-Yue"/>
+                                    <constraint firstItem="hQV-Cg-cca" firstAttribute="leading" secondItem="dDp-lq-dBx" secondAttribute="leading" constant="10" id="clN-GY-lBd"/>
+                                    <constraint firstItem="yLY-Hg-WEc" firstAttribute="leading" secondItem="dDp-lq-dBx" secondAttribute="leading" constant="10" id="eI0-OQ-Jfv"/>
+                                    <constraint firstItem="wzP-ob-RMC" firstAttribute="centerY" secondItem="hQV-Cg-cca" secondAttribute="centerY" id="ioY-se-NdJ"/>
+                                    <constraint firstItem="hQV-Cg-cca" firstAttribute="top" secondItem="ivG-7K-Zzr" secondAttribute="bottom" constant="25" id="m2v-JC-aA6"/>
+                                    <constraint firstItem="ivG-7K-Zzr" firstAttribute="leading" secondItem="dDp-lq-dBx" secondAttribute="leading" constant="10" id="mnG-2G-lLh"/>
+                                    <constraint firstItem="wzP-ob-RMC" firstAttribute="leading" secondItem="hQV-Cg-cca" secondAttribute="trailing" constant="5" id="oEk-tM-LKG"/>
+                                    <constraint firstAttribute="height" constant="180" id="vUh-Zo-t68"/>
+                                    <constraint firstItem="wzP-ob-RMC" firstAttribute="leading" secondItem="iw8-vo-jzw" secondAttribute="leading" id="zSV-aK-TE3"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dDp-lq-dBx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="DFW-Pj-S2a"/>
+                            <constraint firstItem="dDp-lq-dBx" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="EHa-ft-6RV"/>
+                            <constraint firstAttribute="trailing" secondItem="dDp-lq-dBx" secondAttribute="trailing" id="gNS-uZ-PcQ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="passwordTextField" destination="iw8-vo-jzw" id="Dnk-pg-LiP"/>
+                        <outlet property="phoneTextField" destination="wzP-ob-RMC" id="7I8-Av-Q1O"/>
+                        <outlet property="usernameTextField" destination="MUp-kg-aBz" id="Fxe-7u-KXb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116" y="123.68815592203899"/>
+        </scene>
+    </scenes>
+</document>

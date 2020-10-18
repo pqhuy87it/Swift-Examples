@@ -1,0 +1,11 @@
+framework module STP {
+  umbrella header "STP.h"
+
+  export *
+  module * { export * }
+}
+
+module STP.Swift {
+    header "STP-Swift.h"
+    requires objc
+}
