@@ -1,0 +1,73 @@
+//
+//  RefreshHeader+Extensition.swift
+//  RefreshDemo
+//
+//  Created by ZouLiangming on 16/1/25.
+//  Copyright © 2016年 ZouLiangming. All rights reserved.
+//
+
+import UIKit
+
+public extension UIScrollView {
+    var refreshHeader: CustomRefreshHeaderView? {
+        get {
+            return self.viewWithTag(kRefreshHeaderTag) as? CustomRefreshHeaderView
+        }
+        set(newValue) {
+            if newValue == nil {
+                self.refreshHeader?.removeFromSuperview()
+            } else if newValue != self.refreshHeader {
+                newValue!.tag = kRefreshHeaderTag
+                self.refreshHeader?.removeFromSuperview()
+                self.insertSubview(newValue!, at: 0)
+                self.bringSubviewToFront(newValue!)
+            }
+        }
+    }
+
+    var refreshFooter: CustomRefreshFooterView? {
+        get {
+            let view = self.viewWithTag(kRefreshFooterTag) as? CustomRefreshFooterView
+            return view
+        }
+        set(newValue) {
+            if newValue == nil {
+                self.refreshFooter?.removeFromSuperview()
+            } else if newValue != self.refreshFooter {
+                newValue!.tag = kRefreshFooterTag
+                self.refreshFooter?.removeFromSuperview()
+                self.insertSubview(newValue!, at: 0)
+                self.bringSubviewToFront(newValue!)
+            }
+        }
+    }
+
+    var isShowLoadingView: Bool {
+        get {
+            let loadingView = self.viewWithTag(kRefreshLoadingTag) as? CustomRefreshLoadingView
+            if loadingView != nil {
+                return true
+            }
+            return false
+        }
+        set(newValue) {
+            if newValue {
+                let loadingView = CustomRefreshLoadingView()
+                loadingView.tag = kRefreshLoadingTag
+
+                self.addSubview(loadingView)
+                loadingView.startAnimation()
+                self.isScrollEnabled = false
+            } else {
+                let loadingView = self.viewWithTag(kRefreshLoadingTag) as? CustomRefreshLoadingView
+                loadingView?.stopAnimation()
+                loadingView?.removeFromSuperview()
+                self.isScrollEnabled = true
+            }
+        }
+    }
+
+    var loadingView: CustomRefreshLoadingView? {
+        return self.viewWithTag(kRefreshLoadingTag) as? CustomRefreshLoadingView
+    }
+}

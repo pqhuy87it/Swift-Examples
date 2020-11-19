@@ -1,0 +1,9 @@
+build
+Build
+DerivedData/
+.DS_Store
+_Archived Items
+xcuserdata
+*.xcuserstate
+*.xccheckout
+

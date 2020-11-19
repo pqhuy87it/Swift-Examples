@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEDAF5EF1F4C12460013ECEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDAF5EE1F4C12460013ECEC /* AppDelegate.swift */; };
+		DEDAF5F11F4C12460013ECEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDAF5F01F4C12460013ECEC /* ViewController.swift */; };
+		DEDAF5F41F4C12460013ECEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEDAF5F21F4C12460013ECEC /* Main.storyboard */; };
+		DEDAF5F61F4C12460013ECEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEDAF5F51F4C12460013ECEC /* Assets.xcassets */; };
+		DEDAF5F91F4C12460013ECEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEDAF5F71F4C12460013ECEC /* LaunchScreen.storyboard */; };
+		DEDAF6041F4C12460013ECEC /* CustomBackButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDAF6031F4C12460013ECEC /* CustomBackButtonTests.swift */; };
+		DEDAF60F1F4C12460013ECEC /* CustomBackButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDAF60E1F4C12460013ECEC /* CustomBackButtonUITests.swift */; };
+		DEDAF61D1F4C16990013ECEC /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDAF61C1F4C16990013ECEC /* ViewController1.swift */; };
+		DEDAF61F1F4C16F50013ECEC /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDAF61E1F4C16F50013ECEC /* ViewController2.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEDAF6001F4C12460013ECEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEDAF5E31F4C12460013ECEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEDAF5EA1F4C12460013ECEC;
+			remoteInfo = CustomBackButton;
+		};
+		DEDAF60B1F4C12460013ECEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEDAF5E31F4C12460013ECEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEDAF5EA1F4C12460013ECEC;
+			remoteInfo = CustomBackButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DEDAF5EB1F4C12460013ECEC /* CustomBackButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomBackButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEDAF5EE1F4C12460013ECEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEDAF5F01F4C12460013ECEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEDAF5F31F4C12460013ECEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEDAF5F51F4C12460013ECEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEDAF5F81F4C12460013ECEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEDAF5FA1F4C12460013ECEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEDAF5FF1F4C12460013ECEC /* CustomBackButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomBackButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEDAF6031F4C12460013ECEC /* CustomBackButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackButtonTests.swift; sourceTree = "<group>"; };
+		DEDAF6051F4C12460013ECEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEDAF60A1F4C12460013ECEC /* CustomBackButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomBackButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEDAF60E1F4C12460013ECEC /* CustomBackButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackButtonUITests.swift; sourceTree = "<group>"; };
+		DEDAF6101F4C12460013ECEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEDAF61C1F4C16990013ECEC /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		DEDAF61E1F4C16F50013ECEC /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEDAF5E81F4C12460013ECEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEDAF5FC1F4C12460013ECEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEDAF6071F4C12460013ECEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEDAF5E21F4C12460013ECEC = {
+			isa = PBXGroup;
+			children = (
+				DEDAF5ED1F4C12460013ECEC /* CustomBackButton */,
+				DEDAF6021F4C12460013ECEC /* CustomBackButtonTests */,
+				DEDAF60D1F4C12460013ECEC /* CustomBackButtonUITests */,
+				DEDAF5EC1F4C12460013ECEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEDAF5EC1F4C12460013ECEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEDAF5EB1F4C12460013ECEC /* CustomBackButton.app */,
+				DEDAF5FF1F4C12460013ECEC /* CustomBackButtonTests.xctest */,
+				DEDAF60A1F4C12460013ECEC /* CustomBackButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEDAF5ED1F4C12460013ECEC /* CustomBackButton */ = {
+			isa = PBXGroup;
+			children = (
+				DEDAF5EE1F4C12460013ECEC /* AppDelegate.swift */,
+				DEDAF5F01F4C12460013ECEC /* ViewController.swift */,
+				DEDAF61C1F4C16990013ECEC /* ViewController1.swift */,
+				DEDAF61E1F4C16F50013ECEC /* ViewController2.swift */,
+				DEDAF5F21F4C12460013ECEC /* Main.storyboard */,
+				DEDAF5F51F4C12460013ECEC /* Assets.xcassets */,
+				DEDAF5F71F4C12460013ECEC /* LaunchScreen.storyboard */,
+				DEDAF5FA1F4C12460013ECEC /* Info.plist */,
+			);
+			path = CustomBackButton;
+			sourceTree = "<group>";
+		};
+		DEDAF6021F4C12460013ECEC /* CustomBackButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEDAF6031F4C12460013ECEC /* CustomBackButtonTests.swift */,
+				DEDAF6051F4C12460013ECEC /* Info.plist */,
+			);
+			path = CustomBackButtonTests;
+			sourceTree = "<group>";
+		};
+		DEDAF60D1F4C12460013ECEC /* CustomBackButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DEDAF60E1F4C12460013ECEC /* CustomBackButtonUITests.swift */,
+				DEDAF6101F4C12460013ECEC /* Info.plist */,
+			);
+			path = CustomBackButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEDAF5EA1F4C12460013ECEC /* CustomBackButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEDAF6131F4C12460013ECEC /* Build configuration list for PBXNativeTarget "CustomBackButton" */;
+			buildPhases = (
+				DEDAF5E71F4C12460013ECEC /* Sources */,
+				DEDAF5E81F4C12460013ECEC /* Frameworks */,
+				DEDAF5E91F4C12460013ECEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomBackButton;
+			productName = CustomBackButton;
+			productReference = DEDAF5EB1F4C12460013ECEC /* CustomBackButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEDAF5FE1F4C12460013ECEC /* CustomBackButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEDAF6161F4C12460013ECEC /* Build configuration list for PBXNativeTarget "CustomBackButtonTests" */;
+			buildPhases = (
+				DEDAF5FB1F4C12460013ECEC /* Sources */,
+				DEDAF5FC1F4C12460013ECEC /* Frameworks */,
+				DEDAF5FD1F4C12460013ECEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEDAF6011F4C12460013ECEC /* PBXTargetDependency */,
+			);
+			name = CustomBackButtonTests;
+			productName = CustomBackButtonTests;
+			productReference = DEDAF5FF1F4C12460013ECEC /* CustomBackButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DEDAF6091F4C12460013ECEC /* CustomBackButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEDAF6191F4C12460013ECEC /* Build configuration list for PBXNativeTarget "CustomBackButtonUITests" */;
+			buildPhases = (
+				DEDAF6061F4C12460013ECEC /* Sources */,
+				DEDAF6071F4C12460013ECEC /* Frameworks */,
+				DEDAF6081F4C12460013ECEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEDAF60C1F4C12460013ECEC /* PBXTargetDependency */,
+			);
+			name = CustomBackButtonUITests;
+			productName = CustomBackButtonUITests;
+			productReference = DEDAF60A1F4C12460013ECEC /* CustomBackButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEDAF5E31F4C12460013ECEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = "Pham Quang Huy";
+				TargetAttributes = {
+					DEDAF5EA1F4C12460013ECEC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					DEDAF5FE1F4C12460013ECEC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DEDAF5EA1F4C12460013ECEC;
+					};
+					DEDAF6091F4C12460013ECEC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DEDAF5EA1F4C12460013ECEC;
+					};
+				};
+			};
+			buildConfigurationList = DEDAF5E61F4C12460013ECEC /* Build configuration list for PBXProject "CustomBackButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEDAF5E21F4C12460013ECEC;
+			productRefGroup = DEDAF5EC1F4C12460013ECEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEDAF5EA1F4C12460013ECEC /* CustomBackButton */,
+				DEDAF5FE1F4C12460013ECEC /* CustomBackButtonTests */,
+				DEDAF6091F4C12460013ECEC /* CustomBackButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEDAF5E91F4C12460013ECEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEDAF5F91F4C12460013ECEC /* LaunchScreen.storyboard in Resources */,
+				DEDAF5F61F4C12460013ECEC /* Assets.xcassets in Resources */,
+				DEDAF5F41F4C12460013ECEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEDAF5FD1F4C12460013ECEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEDAF6081F4C12460013ECEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEDAF5E71F4C12460013ECEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEDAF61D1F4C16990013ECEC /* ViewController1.swift in Sources */,
+				DEDAF61F1F4C16F50013ECEC /* ViewController2.swift in Sources */,
+				DEDAF5F11F4C12460013ECEC /* ViewController.swift in Sources */,
+				DEDAF5EF1F4C12460013ECEC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEDAF5FB1F4C12460013ECEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEDAF6041F4C12460013ECEC /* CustomBackButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEDAF6061F4C12460013ECEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEDAF60F1F4C12460013ECEC /* CustomBackButtonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEDAF6011F4C12460013ECEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEDAF5EA1F4C12460013ECEC /* CustomBackButton */;
+			targetProxy = DEDAF6001F4C12460013ECEC /* PBXContainerItemProxy */;
+		};
+		DEDAF60C1F4C12460013ECEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEDAF5EA1F4C12460013ECEC /* CustomBackButton */;
+			targetProxy = DEDAF60B1F4C12460013ECEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEDAF5F21F4C12460013ECEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEDAF5F31F4C12460013ECEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEDAF5F71F4C12460013ECEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEDAF5F81F4C12460013ECEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEDAF6111F4C12460013ECEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEDAF6121F4C12460013ECEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEDAF6141F4C12460013ECEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomBackButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = framgia.CustomBackButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DEDAF6151F4C12460013ECEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomBackButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = framgia.CustomBackButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DEDAF6171F4C12460013ECEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CustomBackButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = framgia.CustomBackButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomBackButton.app/CustomBackButton";
+			};
+			name = Debug;
+		};
+		DEDAF6181F4C12460013ECEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CustomBackButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = framgia.CustomBackButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomBackButton.app/CustomBackButton";
+			};
+			name = Release;
+		};
+		DEDAF61A1F4C12460013ECEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CustomBackButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = framgia.CustomBackButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CustomBackButton;
+			};
+			name = Debug;
+		};
+		DEDAF61B1F4C12460013ECEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CustomBackButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = framgia.CustomBackButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CustomBackButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEDAF5E61F4C12460013ECEC /* Build configuration list for PBXProject "CustomBackButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEDAF6111F4C12460013ECEC /* Debug */,
+				DEDAF6121F4C12460013ECEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEDAF6131F4C12460013ECEC /* Build configuration list for PBXNativeTarget "CustomBackButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEDAF6141F4C12460013ECEC /* Debug */,
+				DEDAF6151F4C12460013ECEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEDAF6161F4C12460013ECEC /* Build configuration list for PBXNativeTarget "CustomBackButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEDAF6171F4C12460013ECEC /* Debug */,
+				DEDAF6181F4C12460013ECEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEDAF6191F4C12460013ECEC /* Build configuration list for PBXNativeTarget "CustomBackButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEDAF61A1F4C12460013ECEC /* Debug */,
+				DEDAF61B1F4C12460013ECEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEDAF5E31F4C12460013ECEC /* Project object */;
+}

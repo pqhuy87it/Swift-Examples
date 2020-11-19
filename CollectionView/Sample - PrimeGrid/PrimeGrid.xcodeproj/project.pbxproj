@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		141EC8C21D9D8DF700660B94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141EC8C11D9D8DF700660B94 /* AppDelegate.swift */; };
+		141EC8C41D9D8DF700660B94 /* PrimeGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141EC8C31D9D8DF700660B94 /* PrimeGridViewController.swift */; };
+		141EC8C91D9D8DF700660B94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 141EC8C81D9D8DF700660B94 /* Assets.xcassets */; };
+		141EC8D41D9D8EF800660B94 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141EC8D31D9D8EF800660B94 /* GridLayout.swift */; };
+		141EC8D61D9D906B00660B94 /* NumberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141EC8D51D9D906B00660B94 /* NumberCell.swift */; };
+		141EC8D81D9D953D00660B94 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 141EC8D71D9D953D00660B94 /* LaunchScreen.xib */; };
+		141EC8DA1D9EBCF400660B94 /* PrimeGridViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 141EC8D91D9EBCF400660B94 /* PrimeGridViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		141EC8BE1D9D8DF700660B94 /* PrimeGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrimeGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		141EC8C11D9D8DF700660B94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		141EC8C31D9D8DF700660B94 /* PrimeGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeGridViewController.swift; sourceTree = "<group>"; };
+		141EC8C81D9D8DF700660B94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		141EC8CD1D9D8DF700660B94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		141EC8D31D9D8EF800660B94 /* GridLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		141EC8D51D9D906B00660B94 /* NumberCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberCell.swift; sourceTree = "<group>"; };
+		141EC8D71D9D953D00660B94 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		141EC8D91D9EBCF400660B94 /* PrimeGridViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrimeGridViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		141EC8BB1D9D8DF700660B94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		141EC8B51D9D8DF700660B94 = {
+			isa = PBXGroup;
+			children = (
+				141EC8C01D9D8DF700660B94 /* PrimeGrid */,
+				141EC8BF1D9D8DF700660B94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		141EC8BF1D9D8DF700660B94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				141EC8BE1D9D8DF700660B94 /* PrimeGrid.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		141EC8C01D9D8DF700660B94 /* PrimeGrid */ = {
+			isa = PBXGroup;
+			children = (
+				141EC8C11D9D8DF700660B94 /* AppDelegate.swift */,
+				141EC8D31D9D8EF800660B94 /* GridLayout.swift */,
+				141EC8D51D9D906B00660B94 /* NumberCell.swift */,
+				141EC8C31D9D8DF700660B94 /* PrimeGridViewController.swift */,
+				141EC8D91D9EBCF400660B94 /* PrimeGridViewController.xib */,
+				141EC8C81D9D8DF700660B94 /* Assets.xcassets */,
+				141EC8CD1D9D8DF700660B94 /* Info.plist */,
+				141EC8D71D9D953D00660B94 /* LaunchScreen.xib */,
+			);
+			path = PrimeGrid;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		141EC8BD1D9D8DF700660B94 /* PrimeGrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 141EC8D01D9D8DF700660B94 /* Build configuration list for PBXNativeTarget "PrimeGrid" */;
+			buildPhases = (
+				141EC8BA1D9D8DF700660B94 /* Sources */,
+				141EC8BB1D9D8DF700660B94 /* Frameworks */,
+				141EC8BC1D9D8DF700660B94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrimeGrid;
+			productName = PrimeGrid;
+			productReference = 141EC8BE1D9D8DF700660B94 /* PrimeGrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		141EC8B61D9D8DF700660B94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = "stable|kernel";
+				TargetAttributes = {
+					141EC8BD1D9D8DF700660B94 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = R9AR4U6NWF;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 141EC8B91D9D8DF700660B94 /* Build configuration list for PBXProject "PrimeGrid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 141EC8B51D9D8DF700660B94;
+			productRefGroup = 141EC8BF1D9D8DF700660B94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				141EC8BD1D9D8DF700660B94 /* PrimeGrid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		141EC8BC1D9D8DF700660B94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				141EC8D81D9D953D00660B94 /* LaunchScreen.xib in Resources */,
+				141EC8DA1D9EBCF400660B94 /* PrimeGridViewController.xib in Resources */,
+				141EC8C91D9D8DF700660B94 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		141EC8BA1D9D8DF700660B94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				141EC8D61D9D906B00660B94 /* NumberCell.swift in Sources */,
+				141EC8D41D9D8EF800660B94 /* GridLayout.swift in Sources */,
+				141EC8C41D9D8DF700660B94 /* PrimeGridViewController.swift in Sources */,
+				141EC8C21D9D8DF700660B94 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		141EC8CE1D9D8DF700660B94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		141EC8CF1D9D8DF700660B94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		141EC8D11D9D8DF700660B94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R9AR4U6NWF;
+				INFOPLIST_FILE = PrimeGrid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stablekernel.primegrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		141EC8D21D9D8DF700660B94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R9AR4U6NWF;
+				INFOPLIST_FILE = PrimeGrid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stablekernel.primegrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		141EC8B91D9D8DF700660B94 /* Build configuration list for PBXProject "PrimeGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				141EC8CE1D9D8DF700660B94 /* Debug */,
+				141EC8CF1D9D8DF700660B94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		141EC8D01D9D8DF700660B94 /* Build configuration list for PBXNativeTarget "PrimeGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				141EC8D11D9D8DF700660B94 /* Debug */,
+				141EC8D21D9D8DF700660B94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 141EC8B61D9D8DF700660B94 /* Project object */;
+}

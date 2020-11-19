@@ -1,0 +1,235 @@
+/* 
+  FontName.strings
+  GetAllFontName
+
+  Created by Exlinct on 7/9/16.
+  Copyright © 2016 Framgia, Inc. All rights reserved.
+*/
+/*
+ ------------------------------
+ Font Family Name = [Thonburi]
+ Font Names = [["Thonburi-Bold", "Thonburi", "Thonburi-Light"]]
+ ------------------------------
+ Font Family Name = [Khmer Sangam MN]
+ Font Names = [["KhmerSangamMN"]]
+ ------------------------------
+ Font Family Name = [Kohinoor Telugu]
+ Font Names = [["KohinoorTelugu-Regular", "KohinoorTelugu-Light", "KohinoorTelugu-Medium"]]
+ ------------------------------
+ Font Family Name = [Snell Roundhand]
+ Font Names = [["SnellRoundhand-Black", "SnellRoundhand-Bold", "SnellRoundhand"]]
+ ------------------------------
+ Font Family Name = [Academy Engraved LET]
+ Font Names = [["AcademyEngravedLetPlain"]]
+ ------------------------------
+ Font Family Name = [Marker Felt]
+ Font Names = [["MarkerFelt-Thin", "MarkerFelt-Wide"]]
+ ------------------------------
+ Font Family Name = [Avenir]
+ Font Names = [["Avenir-Heavy", "Avenir-Oblique", "Avenir-Black", "Avenir-Book", "Avenir-BlackOblique", "Avenir-HeavyOblique", "Avenir-Light", "Avenir-MediumOblique", "Avenir-Medium", "Avenir-LightOblique", "Avenir-Roman", "Avenir-BookOblique"]]
+ ------------------------------
+ Font Family Name = [Geeza Pro]
+ Font Names = [["GeezaPro-Bold", "GeezaPro"]]
+ ------------------------------
+ Font Family Name = [Arial Rounded MT Bold]
+ Font Names = [["ArialRoundedMTBold"]]
+ ------------------------------
+ Font Family Name = [Trebuchet MS]
+ Font Names = [["Trebuchet-BoldItalic", "TrebuchetMS", "TrebuchetMS-Bold", "TrebuchetMS-Italic"]]
+ ------------------------------
+ Font Family Name = [Arial]
+ Font Names = [["ArialMT", "Arial-BoldItalicMT", "Arial-ItalicMT", "Arial-BoldMT"]]
+ ------------------------------
+ Font Family Name = [Menlo]
+ Font Names = [["Menlo-BoldItalic", "Menlo-Regular", "Menlo-Bold", "Menlo-Italic"]]
+ ------------------------------
+ Font Family Name = [Gurmukhi MN]
+ Font Names = [["GurmukhiMN-Bold", "GurmukhiMN"]]
+ ------------------------------
+ Font Family Name = [Malayalam Sangam MN]
+ Font Names = [["MalayalamSangamMN", "MalayalamSangamMN-Bold"]]
+ ------------------------------
+ Font Family Name = [Kannada Sangam MN]
+ Font Names = [["KannadaSangamMN", "KannadaSangamMN-Bold"]]
+ ------------------------------
+ Font Family Name = [Bradley Hand]
+ Font Names = [["BradleyHandITCTT-Bold"]]
+ ------------------------------
+ Font Family Name = [Bodoni 72 Oldstyle]
+ Font Names = [["BodoniSvtyTwoOSITCTT-BookIt", "BodoniSvtyTwoOSITCTT-Bold", "BodoniSvtyTwoOSITCTT-Book"]]
+ ------------------------------
+ Font Family Name = [Cochin]
+ Font Names = [["Cochin-Bold", "Cochin-BoldItalic", "Cochin-Italic", "Cochin"]]
+ ------------------------------
+ Font Family Name = [Sinhala Sangam MN]
+ Font Names = [["SinhalaSangamMN", "SinhalaSangamMN-Bold"]]
+ ------------------------------
+ Font Family Name = [PingFang HK]
+ Font Names = [["PingFangHK-Light", "PingFangHK-Semibold", "PingFangHK-Thin", "PingFangHK-Medium", "PingFangHK-Ultralight", "PingFangHK-Regular"]]
+ ------------------------------
+ Font Family Name = [Iowan Old Style]
+ Font Names = [["IowanOldStyle-Bold", "IowanOldStyle-BoldItalic", "IowanOldStyle-Italic", "IowanOldStyle-Roman"]]
+ ------------------------------
+ Font Family Name = [Kohinoor Bangla]
+ Font Names = [["KohinoorBangla-Semibold", "KohinoorBangla-Regular", "KohinoorBangla-Light"]]
+ ------------------------------
+ Font Family Name = [Damascus]
+ Font Names = [["DamascusBold", "Damascus", "DamascusLight", "DamascusMedium", "DamascusSemiBold"]]
+ ------------------------------
+ Font Family Name = [Al Nile]
+ Font Names = [["AlNile-Bold", "AlNile"]]
+ ------------------------------
+ Font Family Name = [Farah]
+ Font Names = [["Farah"]]
+ ------------------------------
+ Font Family Name = [Papyrus]
+ Font Names = [["Papyrus-Condensed", "Papyrus"]]
+ ------------------------------
+ Font Family Name = [Verdana]
+ Font Names = [["Verdana-BoldItalic", "Verdana-Italic", "Verdana", "Verdana-Bold"]]
+ ------------------------------
+ Font Family Name = [Zapf Dingbats]
+ Font Names = [["ZapfDingbatsITC"]]
+ ------------------------------
+ Font Family Name = [Avenir Next Condensed]
+ Font Names = [["AvenirNextCondensed-Regular", "AvenirNextCondensed-MediumItalic", "AvenirNextCondensed-UltraLightItalic", "AvenirNextCondensed-UltraLight", "AvenirNextCondensed-BoldItalic", "AvenirNextCondensed-Italic", "AvenirNextCondensed-Medium", "AvenirNextCondensed-HeavyItalic", "AvenirNextCondensed-Heavy", "AvenirNextCondensed-DemiBoldItalic", "AvenirNextCondensed-DemiBold", "AvenirNextCondensed-Bold"]]
+ ------------------------------
+ Font Family Name = [Courier]
+ Font Names = [["Courier", "Courier-Oblique", "Courier-BoldOblique", "Courier-Bold"]]
+ ------------------------------
+ Font Family Name = [Hoefler Text]
+ Font Names = [["HoeflerText-Regular", "HoeflerText-BlackItalic", "HoeflerText-Italic", "HoeflerText-Black"]]
+ ------------------------------
+ Font Family Name = [Euphemia UCAS]
+ Font Names = [["EuphemiaUCAS", "EuphemiaUCAS-Bold", "EuphemiaUCAS-Italic"]]
+ ------------------------------
+ Font Family Name = [Helvetica]
+ Font Names = [["Helvetica-Oblique", "Helvetica-Light", "Helvetica-Bold", "Helvetica", "Helvetica-BoldOblique", "Helvetica-LightOblique"]]
+ ------------------------------
+ Font Family Name = [Lao Sangam MN]
+ Font Names = [["LaoSangamMN"]]
+ ------------------------------
+ Font Family Name = [Hiragino Mincho ProN]
+ Font Names = [["HiraMinProN-W6", "HiraMinProN-W3"]]
+ ------------------------------
+ Font Family Name = [Bodoni Ornaments]
+ Font Names = [["BodoniOrnamentsITCTT"]]
+ ------------------------------
+ Font Family Name = [Apple Color Emoji]
+ Font Names = [["AppleColorEmoji"]]
+ ------------------------------
+ Font Family Name = [Mishafi]
+ Font Names = [["DiwanMishafi"]]
+ ------------------------------
+ Font Family Name = [Optima]
+ Font Names = [["Optima-Regular", "Optima-Italic", "Optima-Bold", "Optima-BoldItalic", "Optima-ExtraBlack"]]
+ ------------------------------
+ Font Family Name = [Gujarati Sangam MN]
+ Font Names = [["GujaratiSangamMN-Bold", "GujaratiSangamMN"]]
+ ------------------------------
+ Font Family Name = [Devanagari Sangam MN]
+ Font Names = [["DevanagariSangamMN", "DevanagariSangamMN-Bold"]]
+ ------------------------------
+ Font Family Name = [PingFang SC]
+ Font Names = [["PingFangSC-Semibold", "PingFangSC-Regular", "PingFangSC-Thin", "PingFangSC-Light", "PingFangSC-Ultralight", "PingFangSC-Medium"]]
+ ------------------------------
+ Font Family Name = [Savoye LET]
+ Font Names = [["SavoyeLetPlain"]]
+ ------------------------------
+ Font Family Name = [Times New Roman]
+ Font Names = [["TimesNewRomanPS-BoldItalicMT", "TimesNewRomanPSMT", "TimesNewRomanPS-BoldMT", "TimesNewRomanPS-ItalicMT"]]
+ ------------------------------
+ Font Family Name = [Kailasa]
+ Font Names = [["Kailasa", "Kailasa-Bold"]]
+ ------------------------------
+ Font Family Name = [Telugu Sangam MN]
+ Font Names = [[]]
+ ------------------------------
+ Font Family Name = [Heiti SC]
+ Font Names = [[]]
+ ------------------------------
+ Font Family Name = [Apple SD Gothic Neo]
+ Font Names = [["AppleSDGothicNeo-Thin", "AppleSDGothicNeo-UltraLight", "AppleSDGothicNeo-SemiBold", "AppleSDGothicNeo-Medium", "AppleSDGothicNeo-Regular", "AppleSDGothicNeo-Bold", "AppleSDGothicNeo-Light"]]
+ ------------------------------
+ Font Family Name = [Futura]
+ Font Names = [["Futura-Medium", "Futura-CondensedMedium", "Futura-MediumItalic", "Futura-CondensedExtraBold"]]
+ ------------------------------
+ Font Family Name = [Bodoni 72]
+ Font Names = [["BodoniSvtyTwoITCTT-Book", "BodoniSvtyTwoITCTT-Bold", "BodoniSvtyTwoITCTT-BookIta"]]
+ ------------------------------
+ Font Family Name = [Baskerville]
+ Font Names = [["Baskerville-Bold", "Baskerville-SemiBoldItalic", "Baskerville-BoldItalic", "Baskerville", "Baskerville-SemiBold", "Baskerville-Italic"]]
+ ------------------------------
+ Font Family Name = [Symbol]
+ Font Names = [["Symbol"]]
+ ------------------------------
+ Font Family Name = [Heiti TC]
+ Font Names = [[]]
+ ------------------------------
+ Font Family Name = [Copperplate]
+ Font Names = [["Copperplate", "Copperplate-Light", "Copperplate-Bold"]]
+ ------------------------------
+ Font Family Name = [Party LET]
+ Font Names = [["PartyLetPlain"]]
+ ------------------------------
+ Font Family Name = [American Typewriter]
+ Font Names = [["AmericanTypewriter-Light", "AmericanTypewriter-CondensedLight", "AmericanTypewriter-CondensedBold", "AmericanTypewriter", "AmericanTypewriter-Condensed", "AmericanTypewriter-Bold"]]
+ ------------------------------
+ Font Family Name = [Chalkboard SE]
+ Font Names = [["ChalkboardSE-Light", "ChalkboardSE-Regular", "ChalkboardSE-Bold"]]
+ ------------------------------
+ Font Family Name = [Avenir Next]
+ Font Names = [["AvenirNext-MediumItalic", "AvenirNext-Bold", "AvenirNext-UltraLight", "AvenirNext-DemiBold", "AvenirNext-HeavyItalic", "AvenirNext-Heavy", "AvenirNext-Medium", "AvenirNext-Italic", "AvenirNext-UltraLightItalic", "AvenirNext-BoldItalic", "AvenirNext-Regular", "AvenirNext-DemiBoldItalic"]]
+ ------------------------------
+ Font Family Name = [Bangla Sangam MN]
+ Font Names = [[]]
+ ------------------------------
+ Font Family Name = [Noteworthy]
+ Font Names = [["Noteworthy-Bold", "Noteworthy-Light"]]
+ ------------------------------
+ Font Family Name = [Hiragino Sans]
+ Font Names = [["HiraginoSans-W6", "HiraginoSans-W3"]]
+ ------------------------------
+ Font Family Name = [Zapfino]
+ Font Names = [["Zapfino"]]
+ ------------------------------
+ Font Family Name = [Tamil Sangam MN]
+ Font Names = [["TamilSangamMN", "TamilSangamMN-Bold"]]
+ ------------------------------
+ Font Family Name = [Chalkduster]
+ Font Names = [["Chalkduster"]]
+ ------------------------------
+ Font Family Name = [Arial Hebrew]
+ Font Names = [["ArialHebrew-Bold", "ArialHebrew-Light", "ArialHebrew"]]
+ ------------------------------
+ Font Family Name = [Georgia]
+ Font Names = [["Georgia-BoldItalic", "Georgia-Bold", "Georgia-Italic", "Georgia"]]
+ ------------------------------
+ Font Family Name = [Helvetica Neue]
+ Font Names = [["HelveticaNeue-BoldItalic", "HelveticaNeue-Light", "HelveticaNeue-Italic", "HelveticaNeue-UltraLightItalic", "HelveticaNeue-CondensedBold", "HelveticaNeue-MediumItalic", "HelveticaNeue-Thin", "HelveticaNeue-Medium", "HelveticaNeue-ThinItalic", "HelveticaNeue-UltraLight", "HelveticaNeue-LightItalic", "HelveticaNeue-Bold", "HelveticaNeue", "HelveticaNeue-CondensedBlack"]]
+ ------------------------------
+ Font Family Name = [Gill Sans]
+ Font Names = [["GillSans", "GillSans-SemiBoldItalic", "GillSans-Italic", "GillSans-BoldItalic", "GillSans-Light", "GillSans-LightItalic", "GillSans-UltraBold", "GillSans-Bold", "GillSans-SemiBold"]]
+ ------------------------------
+ Font Family Name = [Kohinoor Devanagari]
+ Font Names = [["KohinoorDevanagari-Regular", "KohinoorDevanagari-Light", "KohinoorDevanagari-Semibold"]]
+ ------------------------------
+ Font Family Name = [Palatino]
+ Font Names = [["Palatino-Roman", "Palatino-Italic", "Palatino-Bold", "Palatino-BoldItalic"]]
+ ------------------------------
+ Font Family Name = [Courier New]
+ Font Names = [["CourierNewPSMT", "CourierNewPS-BoldMT", "CourierNewPS-ItalicMT", "CourierNewPS-BoldItalicMT"]]
+ ------------------------------
+ Font Family Name = [Oriya Sangam MN]
+ Font Names = [["OriyaSangamMN", "OriyaSangamMN-Bold"]]
+ ------------------------------
+ Font Family Name = [Didot]
+ Font Names = [["Didot-Bold", "Didot-Italic", "Didot"]]
+ ------------------------------
+ Font Family Name = [PingFang TC]
+ Font Names = [["PingFangTC-Regular", "PingFangTC-Semibold", "PingFangTC-Medium", "PingFangTC-Thin", "PingFangTC-Ultralight", "PingFangTC-Light"]]
+ ------------------------------
+ Font Family Name = [Bodoni 72 Smallcaps]
+ Font Names = [["BodoniSvtyTwoSCITCTT-Book"]]
+
+*/
