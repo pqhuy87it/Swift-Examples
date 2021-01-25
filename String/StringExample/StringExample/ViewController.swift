@@ -28,7 +28,9 @@ class ViewController: UIViewController {
     
     func setupData() {
         items = ["Superscript Styling",
-				 "Json String"]
+				 "Json String",
+				 "Attributed string"
+		]
     }
 }
 
@@ -68,6 +70,11 @@ extension ViewController: UITableViewDelegate {
 			let storyBoard = UIStoryboard(name: "JsonFromString", bundle: nil)
 			if let jsonFromStringVC = storyBoard.instantiateViewController(identifier: "JSONFromStringViewController") as? JSONFromStringViewController {
 				self.navigationController?.pushViewController(jsonFromStringVC, animated: true)
+			}
+		case 2:
+			let storyBoard = UIStoryboard(name: "AttributedString", bundle: nil)
+			if let viewcontroller = storyBoard.instantiateViewController(identifier: "AttributedStringViewController") as? AttributedStringViewController {
+				self.navigationController?.pushViewController(viewcontroller, animated: true)
 			}
             default:
             break

@@ -23,6 +23,8 @@
 		11AB046B250547C8008DFE3A /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11AB0469250547C8008DFE3A /* TableViewCell.xib */; };
 		11B60076250E0B0A0094AF46 /* JSONFromStringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B60075250E0B0A0094AF46 /* JSONFromStringViewController.swift */; };
 		11B60079250E0C070094AF46 /* JsonFromString.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B60078250E0C070094AF46 /* JsonFromString.storyboard */; };
+		64BFC0A225BEE59F00D09EC1 /* AttributedStringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BFC0A125BEE59F00D09EC1 /* AttributedStringViewController.swift */; };
+		64BFC0AC25BEE5CC00D09EC1 /* AttributedString.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64BFC0AB25BEE5CC00D09EC1 /* AttributedString.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		11AB0469250547C8008DFE3A /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		11B60075250E0B0A0094AF46 /* JSONFromStringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONFromStringViewController.swift; sourceTree = "<group>"; };
 		11B60078250E0C070094AF46 /* JsonFromString.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = JsonFromString.storyboard; sourceTree = "<group>"; };
+		64BFC0A125BEE59F00D09EC1 /* AttributedStringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributedStringViewController.swift; sourceTree = "<group>"; };
+		64BFC0AB25BEE5CC00D09EC1 /* AttributedString.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AttributedString.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +164,7 @@
 		11AB046025054618008DFE3A /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				64BFC0A025BEE57B00D09EC1 /* NSAttributedString */,
 				11B60074250E0AC20094AF46 /* Json String */,
 				11AB046125054708008DFE3A /* Superscript Styling */,
 			);
@@ -214,6 +219,31 @@
 				11B60078250E0C070094AF46 /* JsonFromString.storyboard */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		64BFC0A025BEE57B00D09EC1 /* NSAttributedString */ = {
+			isa = PBXGroup;
+			children = (
+				64BFC0AA25BEE5AC00D09EC1 /* ViewControllers */,
+				64BFC0A925BEE5A600D09EC1 /* Views */,
+			);
+			path = NSAttributedString;
+			sourceTree = "<group>";
+		};
+		64BFC0A925BEE5A600D09EC1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				64BFC0AB25BEE5CC00D09EC1 /* AttributedString.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		64BFC0AA25BEE5AC00D09EC1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				64BFC0A125BEE59F00D09EC1 /* AttributedStringViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,6 +354,7 @@
 				11AB046B250547C8008DFE3A /* TableViewCell.xib in Resources */,
 				11AB046725054752008DFE3A /* Superscript.storyboard in Resources */,
 				11B60079250E0C070094AF46 /* JsonFromString.storyboard in Resources */,
+				64BFC0AC25BEE5CC00D09EC1 /* AttributedString.storyboard in Resources */,
 				11AB0435250544FC008DFE3A /* Assets.xcassets in Resources */,
 				11AB0433250544F9008DFE3A /* Main.storyboard in Resources */,
 			);
@@ -354,6 +385,7 @@
 				11AB045F25054612008DFE3A /* UITableViewCell+Extension.swift in Sources */,
 				11AB042C250544F9008DFE3A /* AppDelegate.swift in Sources */,
 				11AB046325054731008DFE3A /* SuperscriptViewController.swift in Sources */,
+				64BFC0A225BEE59F00D09EC1 /* AttributedStringViewController.swift in Sources */,
 				11AB042E250544F9008DFE3A /* SceneDelegate.swift in Sources */,
 				11B60076250E0B0A0094AF46 /* JSONFromStringViewController.swift in Sources */,
 				11AB046A250547C8008DFE3A /* TableViewCell.swift in Sources */,
