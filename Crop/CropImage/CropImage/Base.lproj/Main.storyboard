@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CropImage" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bPo-RJ-kxK" userLabel="Camera Guide View">
+                                <rect key="frame" x="0.0" y="44" width="414" height="718"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zYb-Wc-R3j">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="718"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7tc-dI-R61" userLabel="GuideView">
+                                        <rect key="frame" x="52" y="204" width="310.5" height="310.5"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="7tc-dI-R61" secondAttribute="height" multiplier="1:1" id="n2r-eP-B9N"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="zYb-Wc-R3j" firstAttribute="leading" secondItem="bPo-RJ-kxK" secondAttribute="leading" id="1dT-wQ-Zmq"/>
+                                    <constraint firstItem="7tc-dI-R61" firstAttribute="width" secondItem="bPo-RJ-kxK" secondAttribute="width" multiplier="3:4" id="4Ll-wD-Flo"/>
+                                    <constraint firstItem="zYb-Wc-R3j" firstAttribute="top" secondItem="bPo-RJ-kxK" secondAttribute="top" id="JFC-yf-jeS"/>
+                                    <constraint firstItem="7tc-dI-R61" firstAttribute="centerX" secondItem="bPo-RJ-kxK" secondAttribute="centerX" id="TsJ-DQ-hVT"/>
+                                    <constraint firstItem="7tc-dI-R61" firstAttribute="centerY" secondItem="bPo-RJ-kxK" secondAttribute="centerY" id="jS7-QN-BKT"/>
+                                    <constraint firstAttribute="trailing" secondItem="zYb-Wc-R3j" secondAttribute="trailing" id="t7B-qV-jdg"/>
+                                    <constraint firstAttribute="bottom" secondItem="zYb-Wc-R3j" secondAttribute="bottom" id="zwg-9M-gsU"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tbJ-mv-YRL" userLabel="Capture View">
+                                <rect key="frame" x="0.0" y="762" width="414" height="100"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VgG-bb-ohk">
+                                        <rect key="frame" x="179.5" y="35" width="55" height="30"/>
+                                        <state key="normal" title="Capture"/>
+                                        <connections>
+                                            <action selector="capturePhoto:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pCy-uG-tWq"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="5Mo-Ll-5iM"/>
+                                    <constraint firstItem="VgG-bb-ohk" firstAttribute="centerY" secondItem="tbJ-mv-YRL" secondAttribute="centerY" id="Jx8-v2-Nh2"/>
+                                    <constraint firstItem="VgG-bb-ohk" firstAttribute="centerX" secondItem="tbJ-mv-YRL" secondAttribute="centerX" id="dKf-f0-Gos"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="tbJ-mv-YRL" secondAttribute="bottom" id="8rf-mX-DxN"/>
+                            <constraint firstItem="bPo-RJ-kxK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Vme-Ls-Kf3"/>
+                            <constraint firstItem="tbJ-mv-YRL" firstAttribute="top" secondItem="bPo-RJ-kxK" secondAttribute="bottom" id="WNS-64-nUS"/>
+                            <constraint firstItem="bPo-RJ-kxK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="kZf-gD-1Vg"/>
+                            <constraint firstItem="tbJ-mv-YRL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="qkQ-7N-Mip"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bPo-RJ-kxK" secondAttribute="trailing" id="qql-fe-7kx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tbJ-mv-YRL" secondAttribute="trailing" id="y6W-tz-N4m"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cameraPreviewView" destination="zYb-Wc-R3j" id="uMY-Dh-pCp"/>
+                        <outlet property="guideImageView" destination="7tc-dI-R61" id="SVz-KD-1yZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28.985507246376812" y="102.45535714285714"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
