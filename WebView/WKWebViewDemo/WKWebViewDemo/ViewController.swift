@@ -41,6 +41,7 @@ class ViewController: UIViewController, WKScriptMessageHandler, WKNavigationDele
         // 添加一个名称，就可以在JS通过这个名称发送消息：
         // window.webkit.messageHandlers.AppModel.postMessage({body: 'xxx'})
         configuretion.userContentController.add(self, name: "AppModel")
+		configuretion.userContentController.add(self, name: "SendUser")
         
         self.webView = WKWebView(frame: self.view.bounds, configuration: configuretion)
         
@@ -76,13 +77,26 @@ class ViewController: UIViewController, WKScriptMessageHandler, WKNavigationDele
             self.webView.goForward()
         }
     }
+
+	func parseJsonObjectFromScriptMsg(_ message: WKScriptMessage) {
+		guard let messageBody = message.body as? String,
+			  let data = messageBody.data(using: .utf8) else { return }
+
+		do {
+			if let json = try? JSONDecoder().decode(User.self, from: data) {
+				print(json)
+			}
+		}
+	}
     
     // MARK: - WKScriptMessageHandler
     func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
         print(message.body)
         if message.name == "AppModel" {
             print("message name is AppModel")
-        }
+		} else if message.name == "SendUser" {
+			self.parseJsonObjectFromScriptMsg(message)
+		}
     }
     
     // MARK: - KVO
