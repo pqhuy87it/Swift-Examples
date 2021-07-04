@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6472B266265E252B0020C13E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6472B265265E252B0020C13E /* User.swift */; };
 		69499BB01BDDDB0D00C45A4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69499BAF1BDDDB0D00C45A4C /* AppDelegate.swift */; };
 		69499BB21BDDDB0D00C45A4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69499BB11BDDDB0D00C45A4C /* ViewController.swift */; };
 		69499BB51BDDDB0D00C45A4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69499BB31BDDDB0D00C45A4C /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6472B265265E252B0020C13E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		69499BAC1BDDDB0C00C45A4C /* WKWebViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKWebViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69499BAF1BDDDB0D00C45A4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69499BB11BDDDB0D00C45A4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				69499BB61BDDDB0D00C45A4C /* Assets.xcassets */,
 				69499BB81BDDDB0D00C45A4C /* LaunchScreen.storyboard */,
 				69499BBB1BDDDB0D00C45A4C /* Info.plist */,
+				6472B265265E252B0020C13E /* User.swift */,
 			);
 			path = WKWebViewDemo;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			files = (
 				69499BB21BDDDB0D00C45A4C /* ViewController.swift in Sources */,
 				69499BB01BDDDB0D00C45A4C /* AppDelegate.swift in Sources */,
+				6472B266265E252B0020C13E /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
