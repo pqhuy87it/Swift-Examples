@@ -15,17 +15,20 @@ class ViewController1: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        let backImage = UIImage(named: "backbutton")?.withRenderingMode(.alwaysOriginal)
+        let backImage = UIImage(named: "back-button")?.withRenderingMode(.alwaysOriginal)
         
         self.navigationController?.navigationBar.backIndicatorImage = backImage
         
         self.navigationController?.navigationBar.backIndicatorTransitionMaskImage = backImage
         
         /*** If needed Assign Title Here ***/
-        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "",
+        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "ViewContnroller1",
                                                                 style: .plain,
                                                                 target: nil,
                                                                 action: nil)
+        self.navigationItem.backBarButtonItem?.setTitleTextAttributes([
+            NSAttributedString.Key.foregroundColor: UIColor.orange
+        ], for: .normal)
     }
 
     override func didReceiveMemoryWarning() {

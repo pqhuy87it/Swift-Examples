@@ -16,6 +16,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // cach nay anh huong den toan bo app
+        
+        let backImage = UIImage(named: "Menu")?.withRenderingMode(.alwaysOriginal)
+        
+        UINavigationBar.appearance().backIndicatorImage = backImage
+        UINavigationBar.appearance().backIndicatorTransitionMaskImage = backImage
+        
+        UIBarButtonItem.appearance().tintColor = .white
+        UIBarButtonItem.appearance().setTitleTextAttributes([
+                NSAttributedString.Key.foregroundColor: UIColor.red
+            ], for: .normal)
+        
         return true
     }
 

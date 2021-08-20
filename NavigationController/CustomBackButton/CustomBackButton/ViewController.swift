@@ -21,7 +21,10 @@ class ViewController: UIViewController {
         self.navigationController?.navigationBar.backIndicatorTransitionMaskImage = backImage
         
         /*** If needed Assign Title Here ***/
-        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: UIBarButtonItem.Style.plain, target: nil, action: nil)
+        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "ViewController",
+                                                                style: UIBarButtonItem.Style.plain,
+                                                                target: nil,
+                                                                action: nil)
     }
     
     override func viewWillAppear(_ animated: Bool) {

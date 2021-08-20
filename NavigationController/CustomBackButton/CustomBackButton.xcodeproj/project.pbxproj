@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C82CF7526CFF7A00044EAD7 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C82CF7426CFF7A00044EAD7 /* ViewController3.swift */; };
+		5C82CF7726D003830044EAD7 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C82CF7626D003830044EAD7 /* ViewController4.swift */; };
 		DEDAF5EF1F4C12460013ECEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDAF5EE1F4C12460013ECEC /* AppDelegate.swift */; };
 		DEDAF5F11F4C12460013ECEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDAF5F01F4C12460013ECEC /* ViewController.swift */; };
 		DEDAF5F41F4C12460013ECEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEDAF5F21F4C12460013ECEC /* Main.storyboard */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C82CF7426CFF7A00044EAD7 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		5C82CF7626D003830044EAD7 /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
 		DEDAF5EB1F4C12460013ECEC /* CustomBackButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomBackButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEDAF5EE1F4C12460013ECEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEDAF5F01F4C12460013ECEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +109,8 @@
 				DEDAF5F01F4C12460013ECEC /* ViewController.swift */,
 				DEDAF61C1F4C16990013ECEC /* ViewController1.swift */,
 				DEDAF61E1F4C16F50013ECEC /* ViewController2.swift */,
+				5C82CF7426CFF7A00044EAD7 /* ViewController3.swift */,
+				5C82CF7626D003830044EAD7 /* ViewController4.swift */,
 				DEDAF5F21F4C12460013ECEC /* Main.storyboard */,
 				DEDAF5F51F4C12460013ECEC /* Assets.xcassets */,
 				DEDAF5F71F4C12460013ECEC /* LaunchScreen.storyboard */,
@@ -265,6 +271,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C82CF7526CFF7A00044EAD7 /* ViewController3.swift in Sources */,
+				5C82CF7726D003830044EAD7 /* ViewController4.swift in Sources */,
 				DEDAF61D1F4C16990013ECEC /* ViewController1.swift in Sources */,
 				DEDAF61F1F4C16F50013ECEC /* ViewController2.swift in Sources */,
 				DEDAF5F11F4C12460013ECEC /* ViewController.swift in Sources */,
