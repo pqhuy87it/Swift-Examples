@@ -15,8 +15,23 @@ class ViewController4: UIViewController {
 
         // Do any additional setup after loading the view.
         
+        
+        let view = UIView()
+            let button = UIButton(type: .system)
+            button.setImage(UIImage(named: "Menu"), for: .normal)
+            button.setTitle("Back to workflow", for: .normal)
+            button.addTarget(self, action: #selector(goBack), for: .touchUpInside)
+            button.titleEdgeInsets = UIEdgeInsets(top: 0, left: 10, bottom: 0, right: -10)
+            button.sizeToFit()
+            view.addSubview(button)
+            view.frame = button.bounds
+            navigationItem.leftBarButtonItem = UIBarButtonItem(customView: view)
     }
     
+    @objc func goBack() {
+        print("did tap back button")
+        navigationController?.popViewController(animated: true)
+    }
 
     /*
     // MARK: - Navigation
