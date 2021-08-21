@@ -6,40 +6,70 @@
 //  Copyright © 2018 Pham Quang Huy. All rights reserved.
 //
 
+// https://stackoverflow.com/questions/36043006/swift-tap-on-a-part-of-text-of-uilabel
+
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var lblTermsOfUse: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        let text = "Please agree for Terms & Conditions, Privacy Policy"
+        
+        self.lblTermsOfUse.textColor =  UIColor.black
+        let underlineAttriString = NSMutableAttributedString(string: text)
+        let range1 = (text as NSString).range(of: "Terms & Conditions")
+        let range2 = (text as NSString).range(of: "Privacy Policy")
+        
+        underlineAttriString.addAttribute(NSAttributedString.Key.underlineStyle,
+                                          value: NSUnderlineStyle.single.rawValue,
+                                          range: range1)
+        underlineAttriString.addAttribute(NSAttributedString.Key.font,
+                                          value: UIFont.systemFont(ofSize: 20),
+                                          range: range1)
+        underlineAttriString.addAttribute(NSAttributedString.Key.foregroundColor,
+                                          value: UIColor.blue,
+                                          range: range1)
+        
+        underlineAttriString.addAttribute(NSAttributedString.Key.underlineStyle,
+                                          value: NSUnderlineStyle.single.rawValue,
+                                          range: range2)
+        underlineAttriString.addAttribute(NSAttributedString.Key.font,
+                                          value: UIFont.systemFont(ofSize: 20),
+                                          range: range2)
+        underlineAttriString.addAttribute(NSAttributedString.Key.foregroundColor,
+                                          value: UIColor.blue,
+                                          range: range2)
+        
+        lblTermsOfUse.attributedText = underlineAttriString
         lblTermsOfUse.isUserInteractionEnabled = true
         lblTermsOfUse.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(handleTapOnLabel(_:))))
     }
-
+    
     @objc func handleTapOnLabel(_ recognizer: UITapGestureRecognizer) {
         guard let text = lblTermsOfUse.attributedText?.string else {
             return
         }
         
-        if let range = text.range(of: NSLocalizedString("term", comment: "term")),
-            recognizer.didTapAttributedTextInLabel(label: lblTermsOfUse, inRange: NSRange(range, in: text)) {
+        if let range = text.range(of: NSLocalizedString("Terms & Conditions", comment: "Terms & Conditions")),
+           recognizer.didTapAttributedTextInLabel(label: lblTermsOfUse, inRange: NSRange(range, in: text)) {
             goToTermsAndConditions()
-        } else if let range = text.range(of: NSLocalizedString("answer", comment: "answer")),
-            recognizer.didTapAttributedTextInLabel(label: lblTermsOfUse, inRange: NSRange(range, in: text)) {
+        } else if let range = text.range(of: NSLocalizedString("Privacy Policy", comment: "Privacy Policy")),
+                  recognizer.didTapAttributedTextInLabel(label: lblTermsOfUse, inRange: NSRange(range, in: text)) {
             goToPrivacyPolicy()
         }
     }
     
     func goToTermsAndConditions() {
-        print("term")
+        print("Terms & Conditions")
     }
     
     func goToPrivacyPolicy() {
-        print("answer")
+        print("Privacy Policy")
     }
 }
 
