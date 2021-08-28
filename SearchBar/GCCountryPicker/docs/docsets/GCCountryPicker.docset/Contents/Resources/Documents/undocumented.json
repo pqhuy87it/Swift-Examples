@@ -1,0 +1,89 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/Macintosh/Apps/GCCountryPicker/GCCountryPicker/GCCountryPickerViewController.swift",
+      "line": 42,
+      "symbol": "GCCountryPickerViewController.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macintosh/Apps/GCCountryPicker/GCCountryPicker/GCCountryPickerViewController.swift",
+      "line": 64,
+      "symbol": "GCCountryPickerViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macintosh/Apps/GCCountryPicker/GCCountryPicker/GCCountryPickerViewController.swift",
+      "line": 160,
+      "symbol": "GCCountryPickerViewController.updateSearchResults(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macintosh/Apps/GCCountryPicker/GCCountryPicker/GCCountryPickerViewController.swift",
+      "line": 240,
+      "symbol": "GCCountryPickerViewController.tableView(_:heightForHeaderInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macintosh/Apps/GCCountryPicker/GCCountryPicker/GCCountryPickerViewController.swift",
+      "line": 245,
+      "symbol": "GCCountryPickerViewController.tableView(_:heightForRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macintosh/Apps/GCCountryPicker/GCCountryPicker/GCCountryPickerViewController.swift",
+      "line": 250,
+      "symbol": "GCCountryPickerViewController.tableView(_:viewForHeaderInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macintosh/Apps/GCCountryPicker/GCCountryPicker/GCCountryPickerViewController.swift",
+      "line": 261,
+      "symbol": "GCCountryPickerViewController.tableView(_:didSelectRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macintosh/Apps/GCCountryPicker/GCCountryPicker/GCCountryPickerViewController.swift",
+      "line": 271,
+      "symbol": "GCCountryPickerViewController.numberOfSections(in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macintosh/Apps/GCCountryPicker/GCCountryPicker/GCCountryPickerViewController.swift",
+      "line": 276,
+      "symbol": "GCCountryPickerViewController.tableView(_:numberOfRowsInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macintosh/Apps/GCCountryPicker/GCCountryPicker/GCCountryPickerViewController.swift",
+      "line": 281,
+      "symbol": "GCCountryPickerViewController.sectionIndexTitles(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macintosh/Apps/GCCountryPicker/GCCountryPicker/GCCountryPickerViewController.swift",
+      "line": 286,
+      "symbol": "GCCountryPickerViewController.tableView(_:sectionForSectionIndexTitle:at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Macintosh/Apps/GCCountryPicker/GCCountryPicker/GCCountryPickerViewController.swift",
+      "line": 291,
+      "symbol": "GCCountryPickerViewController.tableView(_:cellForRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/Macintosh/Apps/GCCountryPicker"
+}
