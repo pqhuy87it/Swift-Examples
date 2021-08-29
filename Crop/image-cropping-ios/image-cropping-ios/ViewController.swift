@@ -107,14 +107,24 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     func cropImage1(image: UIImage, rect: CGRect) -> UIImage {
         let cgImage = image.cgImage!
         let croppedCGImage = cgImage.cropping(to: rect)
-        return UIImage(cgImage: croppedCGImage!, scale: image.scale, orientation: image.imageOrientation)
+        
+        return UIImage(cgImage: croppedCGImage!,
+                       scale: image.scale,
+                       orientation: image.imageOrientation)
     }
     
     func cropImage2(image: UIImage, rect: CGRect, scale: CGFloat) -> UIImage {
-        UIGraphicsBeginImageContextWithOptions(CGSize(width: rect.size.width / scale, height: rect.size.height / scale), true, 0.0)
-        image.draw(at: CGPoint(x: -rect.origin.x / scale, y: -rect.origin.y / scale))
+        UIGraphicsBeginImageContextWithOptions(CGSize(width: rect.size.width / scale,
+                                                      height: rect.size.height / scale),
+                                               true,
+                                               0.0)
+        image.draw(at: CGPoint(x: -rect.origin.x / scale,
+                               y: -rect.origin.y / scale))
+        
         let croppedImage = UIGraphicsGetImageFromCurrentImageContext()
+        
         UIGraphicsEndImageContext()
+        
         return croppedImage!
     }
 }
