@@ -25,7 +25,7 @@
 
 import Foundation
 
-protocol DirectoryContentViewControllerDelegate: class {
+protocol DirectoryContentViewControllerDelegate: AnyObject {
     func directoryContentViewController(_ controller: DirectoryContentViewController, didChangeEditingStatus isEditing: Bool)
     func directoryContentViewController(_ controller: DirectoryContentViewController, didSelectItem item: Item<Any>)
     func directoryContentViewController(_ controller: DirectoryContentViewController, didSelectItemDetails item: Item<Any>)
@@ -115,7 +115,7 @@ final class DirectoryContentViewController: UICollectionViewController {
 
     override func setEditing(_ editing: Bool, animated: Bool) {
         super.setEditing(editing, animated: animated)
-        guard let collectionView = collectionView, collectionView.isEditing != editing else {
+        guard let collectionView = collectionView, collectionView.isSelectEditing != editing else {
             return
         }
 

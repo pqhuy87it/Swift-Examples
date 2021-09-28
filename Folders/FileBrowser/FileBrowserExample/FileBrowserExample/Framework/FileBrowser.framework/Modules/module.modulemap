@@ -1,0 +1,11 @@
+framework module FileBrowser {
+  umbrella header "FileBrowser.h"
+
+  export *
+  module * { export * }
+}
+
+module FileBrowser.Swift {
+    header "FileBrowser-Swift.h"
+    requires objc
+}

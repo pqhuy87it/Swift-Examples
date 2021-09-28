@@ -36,7 +36,7 @@ extension UICollectionView {
             fatalError("Cell with class \(stringDescribingCellClass) can't be dequeued")
         }
         if let editableCell = cell as? Editable {
-            editableCell.setEditing(isEditing, animated: false)
+            editableCell.setEditing(isSelectEditing, animated: false)
         }
         return cell
     }
@@ -67,7 +67,7 @@ extension UICollectionView {
     @nonobjc static var kToolbarKey = "toolbar"
     @nonobjc static var kToolbarBottomConstraint = "bottomConstraint"
 
-    @objc var isEditing: Bool {
+    @objc var isSelectEditing: Bool {
         get {
             return (objc_getAssociatedObject(self, &UICollectionView.kIsEditingKey) as? NSNumber)?.boolValue ?? false
         }
