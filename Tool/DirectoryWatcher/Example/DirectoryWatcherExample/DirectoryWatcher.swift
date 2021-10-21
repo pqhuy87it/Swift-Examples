@@ -26,7 +26,9 @@ public class DirectoryWatcher: NSObject {
     //init
     init(watchedUrl: URL) {
         self.watchedUrl = watchedUrl
-        let contentsArray = (try? FileManager.default.contentsOfDirectory(at: watchedUrl, includingPropertiesForKeys: [.isDirectoryKey], options: .skipsHiddenFiles)) ?? []
+        let contentsArray = (try? FileManager.default.contentsOfDirectory(at: watchedUrl,
+                                                                          includingPropertiesForKeys: [.isDirectoryKey],
+                                                                          options: .skipsHiddenFiles)) ?? []
         self.previousContents = Set(contentsArray)
     }
     
@@ -43,13 +45,20 @@ public class DirectoryWatcher: NSObject {
     
     public func startWatching() -> Bool {
         // Already monitoring
-        guard self.source == nil else { return false }
+        guard self.source == nil else {
+            return false
+        }
         
         let descriptor = open(self.watchedUrl.path, O_EVTONLY)
-        guard descriptor != -1 else { return false }
+        
+        guard descriptor != -1 else {
+            return false
+        }
         
         self.queue = DispatchQueue.global()
-        self.source = DispatchSource.makeFileSystemObjectSource(fileDescriptor: descriptor, eventMask: .write, queue: self.queue)
+        self.source = DispatchSource.makeFileSystemObjectSource(fileDescriptor: descriptor,
+                                                                eventMask: .write,
+                                                                queue: self.queue)
         
         self.source?.setEventHandler {
             [weak self] in
@@ -89,6 +98,7 @@ extension DirectoryWatcher {
         guard let contents = try? FileManager.default.contentsOfDirectory(atPath: url.path) else {
             return nil
         }
+        
         var directoryMetadata = [String]()
         for filename in contents {
 
@@ -140,7 +150,9 @@ extension DirectoryWatcher {
             // Changes appear to be completed
             // Post a notification informing that the directory did change
             DispatchQueue.main.async {
-                let contentsArray = (try? FileManager.default.contentsOfDirectory(at: self.watchedUrl, includingPropertiesForKeys: [.isDirectoryKey], options: .skipsHiddenFiles)) ?? []
+                let contentsArray = (try? FileManager.default.contentsOfDirectory(at: self.watchedUrl,
+                                                                                  includingPropertiesForKeys: [.isDirectoryKey],
+                                                                                  options: .skipsHiddenFiles)) ?? []
                 let newContents = Set(contentsArray)
 
                 let newElements = newContents.subtracting(self.previousContents)
@@ -157,6 +169,7 @@ extension DirectoryWatcher {
                         }
                         return element
                     })
+                    
                     self.onDeletedFiles?(elements)
                 }
 
@@ -169,6 +182,7 @@ extension DirectoryWatcher {
                         }
                         return element
                     })
+                    
                     self.onNewFiles?(elements)
                 }
             }
@@ -179,6 +193,7 @@ extension DirectoryWatcher {
         guard !self.directoryChanging else {
             return
         }
+        
         self.directoryChanging = true
         self.retriesLeft = DirectoryWatcher.retryCount
 
