@@ -133,10 +133,34 @@ class NoDataViewController: UIViewController {
         noDataView.isHidden = true
         self.noDataView = noDataView
         
-        let top = NSLayoutConstraint(item: noDataView, attribute: .top, relatedBy: .equal, toItem: topLayoutGuide, attribute: .top, multiplier: 1.0, constant: 0.0)
-        let bottom = NSLayoutConstraint(item: noDataView, attribute: .bottom, relatedBy: .equal, toItem: bottomLayoutGuide, attribute: .bottom, multiplier: 1.0, constant: 0.0)
-        let leading = NSLayoutConstraint(item: noDataView, attribute: .leading, relatedBy: .equal, toItem: self.view, attribute: .leading, multiplier: 1.0, constant: 0.0)
-        let trailing = NSLayoutConstraint(item: noDataView, attribute: .trailing, relatedBy: .equal, toItem: self.view, attribute: .trailing, multiplier: 1.0, constant: 0.0)
+        let top = NSLayoutConstraint(item: noDataView,
+                                     attribute: .top,
+                                     relatedBy: .equal,
+                                     toItem: view.safeAreaLayoutGuide,
+                                     attribute: .top,
+                                     multiplier: 1.0,
+                                     constant: 0.0)
+        let bottom = NSLayoutConstraint(item: noDataView,
+                                        attribute: .bottom,
+                                        relatedBy: .equal,
+                                        toItem: view.safeAreaLayoutGuide,
+                                        attribute: .bottom,
+                                        multiplier: 1.0,
+                                        constant: 0.0)
+        let leading = NSLayoutConstraint(item: noDataView,
+                                         attribute: .leading,
+                                         relatedBy: .equal,
+                                         toItem: self.view,
+                                         attribute: .leading,
+                                         multiplier: 1.0,
+                                         constant: 0.0)
+        let trailing = NSLayoutConstraint(item: noDataView,
+                                          attribute: .trailing,
+                                          relatedBy: .equal,
+                                          toItem: self.view,
+                                          attribute: .trailing,
+                                          multiplier: 1.0,
+                                          constant: 0.0)
         
         NSLayoutConstraint.activate([top, bottom, trailing, leading])
         

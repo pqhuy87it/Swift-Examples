@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         view.addSubview(textField)
         textField.translatesAutoresizingMaskIntoConstraints = false
         textField.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 40.0).isActive = true
-        textField.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -40.0).isActive = true
+        textField.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 40.0).isActive = true
         textField.topAnchor.constraint(equalTo: view.topAnchor, constant: 40.0).isActive = true
         textField.placeholder = "Select date"
         textField.borderStyle = .roundedRect

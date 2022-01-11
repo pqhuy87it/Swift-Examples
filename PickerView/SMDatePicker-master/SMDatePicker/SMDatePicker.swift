@@ -137,6 +137,12 @@ import UIKit
     }
     
     fileprivate func customize() {
+        if #available(iOS 13.4, *) {
+            picker.preferredDatePickerStyle = .wheels
+        } else {
+            // Fallback on earlier versions
+        }
+        
         toolbar.barStyle = UIBarStyle.blackTranslucent
         toolbar.isTranslucent = false
         

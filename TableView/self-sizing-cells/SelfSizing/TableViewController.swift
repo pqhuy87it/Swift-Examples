@@ -29,7 +29,7 @@ extension TableViewController {
         self.tableView.estimatedRowHeight = 44
         self.tableView.rowHeight = UITableView.automaticDimension
         
-        NotificationCenter.default.addObserver(self.tableView,
+        NotificationCenter.default.addObserver(self.tableView!,
                                                selector: #selector(UITableView.reloadData),
                                                name: UIContentSizeCategory.didChangeNotification,
                                                object: nil)

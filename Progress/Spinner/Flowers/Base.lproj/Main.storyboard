@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19158" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZAj-ut-PUr">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19141"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Red Delight-->
+        <scene sceneID="9Rt-dp-PTV">
+            <objects>
+                <viewController id="hJI-kY-g2d" customClass="SecondViewController" customModule="My_Favorite_Flowers" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ww0-pc-j2F">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ipX-A0-2qV">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="729"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RST-eL-qBv" userLabel="LoadingView">
+                                <rect key="frame" x="67.666666666666686" y="342" width="240" height="128"/>
+                                <subviews>
+                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="dR8-FC-Q9l">
+                                        <rect key="frame" x="45" y="62" width="150" height="4"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="150" id="6XT-Qo-tMC"/>
+                                            <constraint firstAttribute="height" constant="4" id="MDY-up-1SF"/>
+                                        </constraints>
+                                    </progressView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemGray4Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="1eZ-ab-7pc"/>
+                                    <constraint firstItem="dR8-FC-Q9l" firstAttribute="centerX" secondItem="RST-eL-qBv" secondAttribute="centerX" id="WXq-EE-UxP"/>
+                                    <constraint firstAttribute="width" constant="240" id="dw2-kH-Y9I"/>
+                                    <constraint firstItem="dR8-FC-Q9l" firstAttribute="centerY" secondItem="RST-eL-qBv" secondAttribute="centerY" id="fcY-XN-MHL"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="akc-fN-aAH"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ipX-A0-2qV" firstAttribute="top" secondItem="Ww0-pc-j2F" secondAttribute="top" id="Agz-dT-KXV"/>
+                            <constraint firstItem="RST-eL-qBv" firstAttribute="centerY" secondItem="Ww0-pc-j2F" secondAttribute="centerY" id="CSk-2U-Gue"/>
+                            <constraint firstItem="RST-eL-qBv" firstAttribute="centerX" secondItem="Ww0-pc-j2F" secondAttribute="centerX" id="NLk-WR-H5I"/>
+                            <constraint firstItem="ipX-A0-2qV" firstAttribute="leading" secondItem="akc-fN-aAH" secondAttribute="leading" id="YHo-Go-uvo"/>
+                            <constraint firstItem="RST-eL-qBv" firstAttribute="centerY" secondItem="Ww0-pc-j2F" secondAttribute="centerY" id="dCg-Yr-kKF"/>
+                            <constraint firstItem="akc-fN-aAH" firstAttribute="bottom" secondItem="ipX-A0-2qV" secondAttribute="bottom" id="ivU-u3-ccW"/>
+                            <constraint firstItem="RST-eL-qBv" firstAttribute="centerX" secondItem="Ww0-pc-j2F" secondAttribute="centerX" id="mJG-5v-G7j"/>
+                            <constraint firstItem="akc-fN-aAH" firstAttribute="trailing" secondItem="ipX-A0-2qV" secondAttribute="trailing" id="xwh-rc-cTh"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Red Delight" image="icon" id="mVg-dW-CFr"/>
+                    <connections>
+                        <outlet property="imageView" destination="ipX-A0-2qV" id="uRD-cX-KvD"/>
+                        <outlet property="loadingView" destination="RST-eL-qBv" id="KrQ-Iv-aeQ"/>
+                        <outlet property="progressView" destination="dR8-FC-Q9l" id="KjH-hJ-lX7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0BT-WX-uYh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="782" y="157"/>
+        </scene>
+        <!--Spider-->
+        <scene sceneID="uRn-F3-ODm">
+            <objects>
+                <viewController id="blh-xY-5ya" customClass="FourthViewController" customModule="My_Favorite_Flowers" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eaV-os-EmO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Ny3-bg-uyk"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Spider" image="icon" id="n7o-ny-39v"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KWc-Dd-A62" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="782" y="1630"/>
+        </scene>
+        <!--Pines-->
+        <scene sceneID="nn2-c8-CKb">
+            <objects>
+                <viewController id="hpx-qd-slU" customClass="ThirdViewController" customModule="My_Favorite_Flowers" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="r6D-k9-OFr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jVC-Dq-RCJ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="729"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="veu-Mh-kh6">
+                                <rect key="frame" x="137.66666666666666" y="356" width="100" height="100"/>
+                                <color key="backgroundColor" systemColor="systemGray4Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="ORO-1i-F47"/>
+                                    <constraint firstAttribute="width" constant="100" id="iVh-qm-Hbu"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="geR-MF-IaW"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="geR-MF-IaW" firstAttribute="trailing" secondItem="jVC-Dq-RCJ" secondAttribute="trailing" id="0oH-w3-ame"/>
+                            <constraint firstItem="geR-MF-IaW" firstAttribute="bottom" secondItem="jVC-Dq-RCJ" secondAttribute="bottom" id="FcR-A4-7kH"/>
+                            <constraint firstItem="veu-Mh-kh6" firstAttribute="centerX" secondItem="r6D-k9-OFr" secondAttribute="centerX" id="GHG-1o-Fmy"/>
+                            <constraint firstItem="jVC-Dq-RCJ" firstAttribute="leading" secondItem="geR-MF-IaW" secondAttribute="leading" id="O52-Xy-U5R"/>
+                            <constraint firstItem="veu-Mh-kh6" firstAttribute="centerY" secondItem="r6D-k9-OFr" secondAttribute="centerY" id="dsX-4b-acy"/>
+                            <constraint firstItem="jVC-Dq-RCJ" firstAttribute="top" secondItem="r6D-k9-OFr" secondAttribute="top" id="nHv-ea-K2l"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Pines" image="icon" id="Urk-Wo-JRR"/>
+                    <connections>
+                        <outlet property="imageView" destination="jVC-Dq-RCJ" id="BW6-XJ-VHr"/>
+                        <outlet property="loadingView" destination="veu-Mh-kh6" id="utT-JK-bPd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Scf-wi-adj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="782" y="870"/>
+        </scene>
+        <!--Pink Dahlia-->
+        <scene sceneID="xaI-m1-P9l">
+            <objects>
+                <viewController id="I0n-Dx-cQW" customClass="FirstViewController" customModule="My_Favorite_Flowers" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oXx-97-Ivq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZLS-Hr-JGx">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="729"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lth-gx-1r3">
+                                <rect key="frame" x="137.66666666666666" y="356" width="100" height="100"/>
+                                <subviews>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="Pha-nz-if6">
+                                        <rect key="frame" x="40" y="40" width="20" height="20"/>
+                                    </activityIndicatorView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="Pha-nz-if6" firstAttribute="centerX" secondItem="Lth-gx-1r3" secondAttribute="centerX" id="9gS-4P-g1y"/>
+                                    <constraint firstAttribute="height" constant="100" id="Nie-e6-7Ya"/>
+                                    <constraint firstAttribute="width" constant="100" id="O9N-Ah-X1C"/>
+                                    <constraint firstItem="Pha-nz-if6" firstAttribute="centerY" secondItem="Lth-gx-1r3" secondAttribute="centerY" id="qnP-r1-3aW"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="kEM-aE-C6S"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Lth-gx-1r3" firstAttribute="centerX" secondItem="oXx-97-Ivq" secondAttribute="centerX" id="3GX-tc-S8S"/>
+                            <constraint firstItem="kEM-aE-C6S" firstAttribute="trailing" secondItem="ZLS-Hr-JGx" secondAttribute="trailing" id="Jk5-kB-bhX"/>
+                            <constraint firstItem="ZLS-Hr-JGx" firstAttribute="top" secondItem="oXx-97-Ivq" secondAttribute="top" id="Ttx-c7-lKe"/>
+                            <constraint firstItem="Lth-gx-1r3" firstAttribute="centerY" secondItem="oXx-97-Ivq" secondAttribute="centerY" id="W9c-PS-obL"/>
+                            <constraint firstItem="ZLS-Hr-JGx" firstAttribute="leading" secondItem="kEM-aE-C6S" secondAttribute="leading" id="paw-gk-2xv"/>
+                            <constraint firstItem="kEM-aE-C6S" firstAttribute="bottom" secondItem="ZLS-Hr-JGx" secondAttribute="bottom" id="zHD-01-jY4"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Pink Dahlia" image="icon" id="Tky-2T-fcu"/>
+                    <connections>
+                        <outlet property="activityIndicator" destination="Pha-nz-if6" id="1k5-I1-Zfj"/>
+                        <outlet property="imageView" destination="ZLS-Hr-JGx" id="kNS-33-9Bt"/>
+                        <outlet property="loadingView" destination="Lth-gx-1r3" id="ffH-dW-cjs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DM2-oM-fuL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="782" y="-536"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="BwC-2i-cgC">
+            <objects>
+                <tabBarController id="ZAj-ut-PUr" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ohM-34-xtC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="I0n-Dx-cQW" kind="relationship" relationship="viewControllers" id="Qtq-hf-cV2"/>
+                        <segue destination="hJI-kY-g2d" kind="relationship" relationship="viewControllers" id="eU0-v8-XUo"/>
+                        <segue destination="hpx-qd-slU" kind="relationship" relationship="viewControllers" id="Mod-Cd-9mP"/>
+                        <segue destination="blh-xY-5ya" kind="relationship" relationship="viewControllers" id="sg8-4F-CAh"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="On0-EY-EBx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-566" y="341"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon" width="21.333333969116211" height="21.333333969116211"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
