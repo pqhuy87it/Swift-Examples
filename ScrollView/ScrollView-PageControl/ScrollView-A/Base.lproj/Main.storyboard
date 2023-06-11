@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ScrollView_A" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="Yae-lM-IUe">
+                                <rect key="frame" x="0.0" y="59" width="393" height="26"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="26" id="8eu-AG-tjE"/>
+                                </constraints>
+                            </pageControl>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="xqw-Zd-sdN">
+                                <rect key="frame" x="0.0" y="126" width="393" height="600"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4aW-Bx-g0D">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="81.333333333333329"/>
+                                        <string key="text">Label Label Label Label Label Label Label LabelLabel Label Label Label Label Label Label LabelLabel Label Label Label Label Label Label Label</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3ml-o7-cV6">
+                                        <rect key="frame" x="0.0" y="81.333333333333314" width="393" height="518.66666666666674"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hxf-4f-xnh">
+                                                <rect key="frame" x="76" y="34" width="240" height="107.33333333333331"/>
+                                                <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="240" id="hCx-eR-Ke3"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemPinkColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="hxf-4f-xnh" secondAttribute="trailing" constant="77" id="EP2-Rn-ef3"/>
+                                            <constraint firstItem="hxf-4f-xnh" firstAttribute="top" secondItem="3ml-o7-cV6" secondAttribute="top" constant="34" id="JFb-bg-BHY"/>
+                                            <constraint firstAttribute="bottom" secondItem="hxf-4f-xnh" secondAttribute="bottom" constant="377.33333333333343" id="Rcb-vo-G4M"/>
+                                            <constraint firstItem="hxf-4f-xnh" firstAttribute="leading" secondItem="3ml-o7-cV6" secondAttribute="leading" constant="76" id="dFN-lM-fMo"/>
+                                            <constraint firstItem="hxf-4f-xnh" firstAttribute="height" secondItem="3ml-o7-cV6" secondAttribute="height" multiplier="0.272921" constant="-34.221692000000047" id="zRq-MR-uxH"/>
+                                        </constraints>
+                                        <viewLayoutGuide key="contentLayoutGuide" id="DKY-bX-aw5"/>
+                                        <viewLayoutGuide key="frameLayoutGuide" id="ZGa-Cd-km6"/>
+                                    </scrollView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="600" id="Cjt-5c-we8"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                        <constraints>
+                            <constraint firstItem="Yae-lM-IUe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="0mf-zA-GaI"/>
+                            <constraint firstItem="xqw-Zd-sdN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="6gt-bs-tQh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xqw-Zd-sdN" secondAttribute="trailing" id="Rx7-wU-7JE"/>
+                            <constraint firstItem="xqw-Zd-sdN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="egy-wT-lmv"/>
+                            <constraint firstItem="Yae-lM-IUe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="oHt-fO-vhV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Yae-lM-IUe" secondAttribute="trailing" id="qqe-l4-15C"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="container" destination="hxf-4f-xnh" id="eYr-kd-2yA"/>
+                        <outlet property="pageControl" destination="Yae-lM-IUe" id="RsI-h4-mPH"/>
+                        <outlet property="scrollView" destination="3ml-o7-cV6" id="VLP-he-lzG"/>
+                        <outlet property="widthConstraint" destination="hCx-eR-Ke3" id="Lvo-ou-gyE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2.2900763358778624" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

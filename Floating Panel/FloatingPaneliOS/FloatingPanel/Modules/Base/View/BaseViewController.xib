@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BaseViewController" customModule="FloatingPanel" customModuleProvider="target">
+            <connections>
+                <outlet property="btnShowPanel" destination="Eu2-7j-yU2" id="Vgc-bu-3iT"/>
+                <outlet property="view" destination="bIk-Fd-E63" id="0ID-QQ-ai3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="bIk-Fd-E63">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zPV-0w-l6y">
+                    <rect key="frame" x="149.66666666666666" y="401" width="90.666666666666657" height="42"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eu2-7j-yU2">
+                    <rect key="frame" x="310" y="764" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="Eu2-7j-yU2" secondAttribute="height" multiplier="1:1" id="CAh-9t-RLG"/>
+                        <constraint firstAttribute="width" constant="60" id="mF4-SR-f8R"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="filled" image="info" catalog="system">
+                        <color key="baseForegroundColor" name="purple"/>
+                        <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </buttonConfiguration>
+                    <connections>
+                        <action selector="showPanel:" destination="-1" eventType="touchUpInside" id="HJO-ix-n4Q"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="bqd-61-70f"/>
+            <color key="backgroundColor" name="purple"/>
+            <constraints>
+                <constraint firstItem="bqd-61-70f" firstAttribute="trailing" secondItem="Eu2-7j-yU2" secondAttribute="trailing" constant="20" id="1td-90-Z0U"/>
+                <constraint firstItem="zPV-0w-l6y" firstAttribute="centerX" secondItem="bqd-61-70f" secondAttribute="centerX" id="MSw-Ye-fwc"/>
+                <constraint firstItem="zPV-0w-l6y" firstAttribute="centerY" secondItem="bqd-61-70f" secondAttribute="centerY" id="n9N-t7-HZT"/>
+                <constraint firstItem="bqd-61-70f" firstAttribute="bottom" secondItem="Eu2-7j-yU2" secondAttribute="bottom" constant="20" id="qP2-Xr-Fb2"/>
+            </constraints>
+            <point key="canvasLocation" x="25" y="-584"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="info" catalog="system" width="93" height="128"/>
+        <namedColor name="purple">
+            <color red="0.73333333333333328" green="0.53333333333333333" blue="0.9137254901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

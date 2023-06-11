@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol GridCollectionViewLayoutDelegate: class {
+protocol GridCollectionViewLayoutDelegate: AnyObject {
     func collectionView(_ collectionView: UICollectionView, columnSpanForItemAt index: GridIndex, indexPath: IndexPath) -> Int
     func collectionView(_ collectionView: UICollectionView, heightForItemAt index: GridIndex, indexPath: IndexPath) -> CGFloat
     func collectionView(_ collectionView: UICollectionView, heightForRow row: Int) -> CGFloat

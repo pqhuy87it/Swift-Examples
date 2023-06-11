@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CharacterView" customModule="PageController" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="326" height="381"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hiccup" translatesAutoresizingMaskIntoConstraints="NO" id="jrq-a7-yXs">
+                    <rect key="frame" x="0.0" y="0.0" width="326" height="381"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hiccup" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sDn-uN-b1a">
+                    <rect key="frame" x="249" y="20" width="61" height="22"/>
+                    <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="17"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="31R-Xe-JKh">
+                    <rect key="frame" x="118.5" y="306.5" width="89" height="34.5"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="new name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ovl-1i-4Pi">
+                            <rect key="frame" x="8" y="4" width="73" height="26.5"/>
+                            <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="0.37671232876712329" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="ovl-1i-4Pi" secondAttribute="bottom" constant="4" id="5md-qE-WvZ"/>
+                        <constraint firstItem="ovl-1i-4Pi" firstAttribute="top" secondItem="31R-Xe-JKh" secondAttribute="top" constant="4" id="KW3-lO-xk4"/>
+                        <constraint firstAttribute="trailing" secondItem="ovl-1i-4Pi" secondAttribute="trailing" constant="8" id="aB1-Ic-d60"/>
+                        <constraint firstItem="ovl-1i-4Pi" firstAttribute="leading" secondItem="31R-Xe-JKh" secondAttribute="leading" constant="8" id="d2H-LU-PQY"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="sDn-uN-b1a" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="1qA-H3-qhV"/>
+                <constraint firstItem="jrq-a7-yXs" firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="bottom" id="AB2-Mt-G3c"/>
+                <constraint firstItem="31R-Xe-JKh" firstAttribute="width" relation="lessThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.8" id="GaU-QX-2sF"/>
+                <constraint firstItem="jrq-a7-yXs" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="W5J-Gm-yYr"/>
+                <constraint firstAttribute="bottom" secondItem="31R-Xe-JKh" secondAttribute="bottom" constant="40" id="kbs-fY-ICx"/>
+                <constraint firstItem="jrq-a7-yXs" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="oW7-ai-Nd4"/>
+                <constraint firstAttribute="trailing" secondItem="sDn-uN-b1a" secondAttribute="trailing" constant="16" id="sDU-er-Vna"/>
+                <constraint firstItem="31R-Xe-JKh" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="svT-do-CFf"/>
+                <constraint firstItem="jrq-a7-yXs" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailing" id="uan-hM-dLR"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="descriptView" destination="31R-Xe-JKh" id="R07-eb-6ZO"/>
+                <outlet property="descriptionLabel" destination="ovl-1i-4Pi" id="QY3-K2-bJ6"/>
+                <outlet property="imageView" destination="jrq-a7-yXs" id="IT7-wL-RM9"/>
+                <outlet property="titleLabel" destination="sDn-uN-b1a" id="0Jp-fm-pG7"/>
+            </connections>
+            <point key="canvasLocation" x="76.811594202898561" y="127.56696428571428"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="hiccup" width="200" height="460"/>
+    </resources>
+</document>

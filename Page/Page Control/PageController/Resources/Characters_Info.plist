@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Astrid</string>
+		<key>description</key>
+		<string>She is a Viking warrior of Clan Hofferson of the Hooligan tribe, Her dragon name is Stormfly.</string>
+		<key>image_Name</key>
+		<string>astrid</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Fishlegs</string>
+		<key>description</key>
+		<string>He is Hiccup&apos;s Best Friend. (Text Book). His dragon name is Meatlug.</string>
+		<key>image_Name</key>
+		<string>fishlegs</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Gobber</string>
+		<key>description</key>
+		<string>He is a veteran warrior of the Hairy Hooligans Tribe and a long-time friend and adviser of Stoick the Vast. His dragon name is Gronckle.</string>
+		<key>image_Name</key>
+		<string>gobber</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Tuffnut</string>
+		<key>description</key>
+		<string>He is the fraternal twin of Ruffnut and is one of the tertartagonists in the How to Train Your Dragon franchise. His dragon name is Barf and Belch.</string>
+		<key>image_Name</key>
+		<string>tuffnut</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Valka</string>
+		<key>description</key>
+		<string>She is Hiccup&apos;s long-lost mother. Her dragon name is Cloudjumper.</string>
+		<key>image_Name</key>
+		<string>valka</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Hiccop</string>
+		<key>description</key>
+		<string>He is a Viking son of the chief, His dragnon name is Toothless.</string>
+		<key>image_Name</key>
+		<string>hiccup</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>NightFury</string>
+		<key>description</key>
+		<string> Night Fury is the fastest, smartest, and rarest of the known species of dragons. He is Hiccup&apos;s dragnon</string>
+		<key>image_Name</key>
+		<string>night_fury</string>
+	</dict>
+</array>
+</plist>

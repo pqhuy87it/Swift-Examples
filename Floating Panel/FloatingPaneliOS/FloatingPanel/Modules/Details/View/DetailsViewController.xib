@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailsViewController" customModule="FloatingPanel" customModuleProvider="target">
+            <connections>
+                <outlet property="animatableView" destination="H6u-9f-0av" id="2If-ux-etJ"/>
+                <outlet property="tableView" destination="Z8B-ZF-5pj" id="yuJ-Kc-iNI"/>
+                <outlet property="view" destination="iN0-l3-epB" id="Cd2-fl-dXZ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H6u-9f-0av">
+                    <rect key="frame" x="155" y="62" width="80" height="8"/>
+                    <color key="backgroundColor" name="LightGray"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="8" id="OvO-FR-NmW"/>
+                        <constraint firstAttribute="width" constant="80" id="n9u-c3-qor"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wgt-QW-pWW">
+                    <rect key="frame" x="353" y="62" width="25" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="wgt-QW-pWW" secondAttribute="height" multiplier="1:1" id="MRs-NC-tI7"/>
+                        <constraint firstAttribute="width" constant="25" id="SUd-UO-uoX"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="filled">
+                        <imageReference key="image" image="x.circle.fill" catalog="system" renderingMode="hierarchical">
+                            <hierarchicalColors>
+                                <color red="0.40537173539092863" green="0.40537173539092863" blue="0.40537173539092863" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color name="LightGray"/>
+                                <color name="LightGray"/>
+                            </hierarchicalColors>
+                        </imageReference>
+                        <color key="baseForegroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </buttonConfiguration>
+                    <connections>
+                        <action selector="exit:" destination="-1" eventType="touchUpInside" id="bDJ-kC-LUg"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trace Result" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UAw-6j-owP">
+                    <rect key="frame" x="0.0" y="85" width="390" height="23"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
+                    <color key="textColor" name="Purple"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" estimatedSectionHeaderHeight="-1" sectionFooterHeight="28" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Z8B-ZF-5pj">
+                    <rect key="frame" x="0.0" y="123" width="390" height="721"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="separatorColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" name="Background"/>
+            <constraints>
+                <constraint firstItem="Z8B-ZF-5pj" firstAttribute="top" secondItem="UAw-6j-owP" secondAttribute="bottom" constant="15" id="3KU-Od-zEz"/>
+                <constraint firstItem="wgt-QW-pWW" firstAttribute="top" secondItem="H6u-9f-0av" secondAttribute="top" id="7Sr-ec-xm1"/>
+                <constraint firstItem="H6u-9f-0av" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="B8T-GD-dhC"/>
+                <constraint firstItem="wgt-QW-pWW" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" constant="-12" id="CEk-jB-SB6"/>
+                <constraint firstItem="UAw-6j-owP" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="FJs-u3-K1R"/>
+                <constraint firstItem="Z8B-ZF-5pj" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Jmp-X2-0eL"/>
+                <constraint firstItem="Z8B-ZF-5pj" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="U1f-hd-vQg"/>
+                <constraint firstAttribute="bottom" secondItem="Z8B-ZF-5pj" secondAttribute="bottom" id="Vnt-Aa-Q1Z"/>
+                <constraint firstItem="UAw-6j-owP" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="g2u-N8-es8"/>
+                <constraint firstItem="UAw-6j-owP" firstAttribute="top" secondItem="H6u-9f-0av" secondAttribute="bottom" constant="15" id="s74-aL-j8x"/>
+                <constraint firstItem="H6u-9f-0av" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="15" id="siJ-U8-nRN"/>
+            </constraints>
+            <point key="canvasLocation" x="8" y="21"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="x.circle.fill" catalog="system" width="128" height="123"/>
+        <namedColor name="Background">
+            <color red="0.94901960784313721" green="0.95686274509803926" blue="0.99215686274509807" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="LightGray">
+            <color red="0.80392156862745101" green="0.792156862745098" blue="0.792156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Purple">
+            <color red="0.73333333333333328" green="0.53333333333333333" blue="0.9137254901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
