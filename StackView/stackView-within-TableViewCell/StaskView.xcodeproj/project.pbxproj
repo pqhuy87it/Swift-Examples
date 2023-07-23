@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F470FEB522F08BAC00BA5229 /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F470FEB422F08BAC00BA5229 /* CustomView.xib */; };
+		F492E41622EA67BA008889B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F492E41522EA67BA008889B5 /* AppDelegate.swift */; };
+		F492E41B22EA67BA008889B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F492E41922EA67BA008889B5 /* Main.storyboard */; };
+		F492E41E22EA67BA008889B5 /* StaskView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F492E41C22EA67BA008889B5 /* StaskView.xcdatamodeld */; };
+		F492E42022EA67BB008889B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F492E41F22EA67BB008889B5 /* Assets.xcassets */; };
+		F492E42322EA67BB008889B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F492E42122EA67BB008889B5 /* LaunchScreen.storyboard */; };
+		F492E42C22EA67F9008889B5 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F492E42B22EA67F9008889B5 /* CustomView.swift */; };
+		F4E622F222F2514800264094 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E622F122F2514800264094 /* ViewExtension.swift */; };
+		F4F80E9822EF6E3000FD37E8 /* StackTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F80E9722EF6E3000FD37E8 /* StackTableViewController.swift */; };
+		F4F80E9A22EF6F8300FD37E8 /* TableViewCellPrototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F80E9922EF6F8300FD37E8 /* TableViewCellPrototype.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F470FEB422F08BAC00BA5229 /* CustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
+		F492E41222EA67BA008889B5 /* StaskView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StaskView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F492E41522EA67BA008889B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F492E41A22EA67BA008889B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F492E41D22EA67BA008889B5 /* StaskView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StaskView.xcdatamodel; sourceTree = "<group>"; };
+		F492E41F22EA67BB008889B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F492E42222EA67BB008889B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F492E42422EA67BB008889B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F492E42B22EA67F9008889B5 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		F4E622F122F2514800264094 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		F4F80E9722EF6E3000FD37E8 /* StackTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTableViewController.swift; sourceTree = "<group>"; };
+		F4F80E9922EF6F8300FD37E8 /* TableViewCellPrototype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellPrototype.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F492E40F22EA67BA008889B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F492E40922EA67BA008889B5 = {
+			isa = PBXGroup;
+			children = (
+				F492E41422EA67BA008889B5 /* StaskView */,
+				F492E41322EA67BA008889B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F492E41322EA67BA008889B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F492E41222EA67BA008889B5 /* StaskView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F492E41422EA67BA008889B5 /* StaskView */ = {
+			isa = PBXGroup;
+			children = (
+				F4E622F022F2512900264094 /* Model */,
+				F4F80E9622EF6E0200FD37E8 /* Controllers */,
+				F492E42A22EA67D5008889B5 /* View */,
+				F492E41522EA67BA008889B5 /* AppDelegate.swift */,
+				F492E41922EA67BA008889B5 /* Main.storyboard */,
+				F492E41F22EA67BB008889B5 /* Assets.xcassets */,
+				F492E42122EA67BB008889B5 /* LaunchScreen.storyboard */,
+				F492E42422EA67BB008889B5 /* Info.plist */,
+				F492E41C22EA67BA008889B5 /* StaskView.xcdatamodeld */,
+			);
+			path = StaskView;
+			sourceTree = "<group>";
+		};
+		F492E42A22EA67D5008889B5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F492E42B22EA67F9008889B5 /* CustomView.swift */,
+				F470FEB422F08BAC00BA5229 /* CustomView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F4E622F022F2512900264094 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F4E622F122F2514800264094 /* ViewExtension.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F4F80E9622EF6E0200FD37E8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F4F80E9722EF6E3000FD37E8 /* StackTableViewController.swift */,
+				F4F80E9922EF6F8300FD37E8 /* TableViewCellPrototype.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F492E41122EA67BA008889B5 /* StaskView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F492E42722EA67BB008889B5 /* Build configuration list for PBXNativeTarget "StaskView" */;
+			buildPhases = (
+				F492E40E22EA67BA008889B5 /* Sources */,
+				F492E40F22EA67BA008889B5 /* Frameworks */,
+				F492E41022EA67BA008889B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StaskView;
+			productName = StaskView;
+			productReference = F492E41222EA67BA008889B5 /* StaskView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F492E40A22EA67BA008889B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Julio Collado";
+				TargetAttributes = {
+					F492E41122EA67BA008889B5 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = F492E40D22EA67BA008889B5 /* Build configuration list for PBXProject "StaskView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F492E40922EA67BA008889B5;
+			productRefGroup = F492E41322EA67BA008889B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F492E41122EA67BA008889B5 /* StaskView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F492E41022EA67BA008889B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F492E42322EA67BB008889B5 /* LaunchScreen.storyboard in Resources */,
+				F470FEB522F08BAC00BA5229 /* CustomView.xib in Resources */,
+				F492E42022EA67BB008889B5 /* Assets.xcassets in Resources */,
+				F492E41B22EA67BA008889B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F492E40E22EA67BA008889B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E622F222F2514800264094 /* ViewExtension.swift in Sources */,
+				F492E42C22EA67F9008889B5 /* CustomView.swift in Sources */,
+				F4F80E9A22EF6F8300FD37E8 /* TableViewCellPrototype.swift in Sources */,
+				F492E41E22EA67BA008889B5 /* StaskView.xcdatamodeld in Sources */,
+				F4F80E9822EF6E3000FD37E8 /* StackTableViewController.swift in Sources */,
+				F492E41622EA67BA008889B5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F492E41922EA67BA008889B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F492E41A22EA67BA008889B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F492E42122EA67BB008889B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F492E42222EA67BB008889B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F492E42522EA67BB008889B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F492E42622EA67BB008889B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F492E42822EA67BB008889B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SN83FZJ9R5;
+				INFOPLIST_FILE = StaskView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcollado.StaskView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F492E42922EA67BB008889B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SN83FZJ9R5;
+				INFOPLIST_FILE = StaskView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcollado.StaskView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F492E40D22EA67BA008889B5 /* Build configuration list for PBXProject "StaskView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F492E42522EA67BB008889B5 /* Debug */,
+				F492E42622EA67BB008889B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F492E42722EA67BB008889B5 /* Build configuration list for PBXNativeTarget "StaskView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F492E42822EA67BB008889B5 /* Debug */,
+				F492E42922EA67BB008889B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F492E41C22EA67BA008889B5 /* StaskView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F492E41D22EA67BA008889B5 /* StaskView.xcdatamodel */,
+			);
+			currentVersion = F492E41D22EA67BA008889B5 /* StaskView.xcdatamodel */;
+			path = StaskView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F492E40A22EA67BA008889B5 /* Project object */;
+}
